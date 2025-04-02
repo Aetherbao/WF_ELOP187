@@ -1,0 +1,3 @@
+./objects/div_nzp_repeat_u32.o: Source\ASW\ASW_share\div_nzp_repeat_u32.c \
+  Source\ASW\ASW_share\div_nzp_repeat_u32.h \
+  Source\ASW\ASW_share\rtwtypes.h
