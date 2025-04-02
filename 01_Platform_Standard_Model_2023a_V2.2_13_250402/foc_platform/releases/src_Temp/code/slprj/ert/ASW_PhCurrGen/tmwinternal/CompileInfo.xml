@@ -1,0 +1,1307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MF0 version="1.1" packageUris="http://schema.mathworks.com/mf0/ci/19700101 http://schema.mathworks.com/mf0/sl_modelref_info/R2023a http://schema.mathworks.com/mf0/slexec_mm_sto/R2023a_202208151321 http://schema.mathworks.com/mf0/sltp_mm/R2023a_202209151115">
+  <ModelRefInfoRepo.ModelRefInfoRoot type="ModelRefInfoRepo.ModelRefInfoRoot" uuid="19003ecc-d52c-44b1-b990-61856c74bdd2">
+    <JITEngines>s61MDLGQbJFM75pDtFdUDaC</JITEngines>
+    <JITEngines>stCWh84mSfcfYclOdohxTaE</JITEngines>
+    <JITEngines>swsdD1isyJ8IhvUB7La1uWE</JITEngines>
+    <calibrationData type="ModelRefInfoRepo.CalibrationData" uuid="3087be91-63be-4672-94da-6c47587fce59">
+      <InternalData>[{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;}]</InternalData>
+      <ModelName>ASW_PhCurrGen</ModelName>
+      <RootIOData>[{&quot;Name&quot;:&quot;busPhCurrGen_SlwTaskIn&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;busPhCurrGen_SlwTaskOut&quot;,&quot;Profile&quot;:&quot;&quot;}]</RootIOData>
+    </calibrationData>
+    <childModelRefInfo type="ModelRefInfoRepo.ChildModelRefInfo" uuid="ceb2b3d0-25a9-4747-ab57-a75a1c8157d6">
+      <isSingleInstance>true</isSingleInstance>
+      <modelName>ASW_PhCurrGen</modelName>
+      <modelPath>ASW_PhCurrGen</modelPath>
+    </childModelRefInfo>
+    <dataDictionary>dd_foc_dictionary.sldd</dataDictionary>
+    <dataDictionarySet>dd_foc_dictionary.sldd</dataDictionarySet>
+    <dataDictionarySetForDataTypeCheck>dd_foc_dictionary.sldd</dataDictionarySetForDataTypeCheck>
+    <dataTransferInfos>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAAAgAAAAAAAAAFAAAACAAAAAAAAAABAAAAAQAAAAAAAAAFAAQAAQAAAAEAAAAAAAAA</dataTransferInfos>
+    <defaultsCMapping>{&quot;Inports&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;Outports&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;ParameterArguments&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;LocalParameters&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;GlobalParameters&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;InternalData&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;SharedLocalDataStores&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;GlobalDataStores&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;Constants&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;DataTransfers&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;ModelData&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;InitializeTerminate&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;Execution&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;SharedUtility&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;}</defaultsCMapping>
+    <fastestNoncontSigFeedingDerivPorts>-1.0</fastestNoncontSigFeedingDerivPorts>
+    <fundamentalSampleTimePeriod>.000125</fundamentalSampleTimePeriod>
+    <globalVariables>#BUS_PHCURRGEN_SLW_TASK_IN#dd_foc_data_type.sldd#</globalVariables>
+    <globalVariables>#BUS_PHCURRGEN_SLW_TASK_OUT#dd_foc_data_type.sldd#</globalVariables>
+    <globalVariables>#Cdbl_facSpdCtlKiMaxVal#dd_foc_configuration_parameter.sldd#</globalVariables>
+    <globalVariables>#Cdbl_facSpdCtlKpMaxVal#dd_foc_configuration_parameter.sldd#</globalVariables>
+    <globalVariables>#Cdbl_facStrtUpTqRiseRateMaxVal#dd_foc_configuration_parameter.sldd#</globalVariables>
+    <globalVariables>#Cdbl_iPhCurrMaxVal#dd_foc_configuration_parameter.sldd#</globalVariables>
+    <globalVariables>#Cdbl_iPhCurrPeakVal#dd_foc_configuration_parameter.sldd#</globalVariables>
+    <globalVariables>#Cdbl_nElecAgSpdMaxVal#dd_foc_configuration_parameter.sldd#</globalVariables>
+    <globalVariables>#Cdbl_numPPNumMaxVal#dd_foc_configuration_parameter.sldd#</globalVariables>
+    <globalVariables>#Cdbl_numPPNumMinVal#dd_foc_configuration_parameter.sldd#</globalVariables>
+    <globalVariables>#Cdbl_psiPermMagFlxMaxVal#dd_foc_configuration_parameter.sldd#</globalVariables>
+    <globalVariables>#Cdbl_psiPermMagFlxMinVal#dd_foc_configuration_parameter.sldd#</globalVariables>
+    <globalVariables>#Cdbl_psiPermMagFlxPeakVal#dd_foc_configuration_parameter.sldd#</globalVariables>
+    <globalVariables>#Cdbl_tiFstTaskSmpTi#dd_foc_configuration_parameter.sldd#</globalVariables>
+    <globalVariables>#Cdbl_tiSlwTaskSmpTi#dd_foc_configuration_parameter.sldd#</globalVariables>
+    <globalVariables>#Cdbl_trqTqMaxVal#dd_foc_configuration_parameter.sldd#</globalVariables>
+    <globalVariables>#Cdbl_trqTqPeakVal#dd_foc_configuration_parameter.sldd#</globalVariables>
+    <globalVariables>#Gs16_facStrtUpTqRiseRate_C#dd_foc_tunable_parameter.sldd#</globalVariables>
+    <globalVariables>#Gs16_facStrtUpTrqDecFallRate_C#dd_foc_tunable_parameter.sldd#</globalVariables>
+    <globalVariables>#Gs16_facStrtUpTrqDecRiseRate_C#dd_foc_tunable_parameter.sldd#</globalVariables>
+    <globalVariables>#Gs16_nMinSenlRefElecSpd_C#dd_foc_tunable_parameter.sldd#</globalVariables>
+    <globalVariables>#Gs16_nMinStrtUpElecSpd_C#dd_foc_tunable_parameter.sldd#</globalVariables>
+    <globalVariables>#Gs16_nOpnLpConvActElecSpd_C#dd_foc_tunable_parameter.sldd#</globalVariables>
+    <globalVariables>#Gs16_nShOffActElecSpd_C#dd_foc_tunable_parameter.sldd#</globalVariables>
+    <globalVariables>#Gs16_nStrtUpProcTolcElecSpd_C#dd_foc_tunable_parameter.sldd#</globalVariables>
+    <globalVariables>#Gs16_trqInitCondTq_C#dd_foc_tunable_parameter.sldd#</globalVariables>
+    <globalVariables>#Gs16_trqMaxStrtUpTq_C#dd_foc_tunable_parameter.sldd#</globalVariables>
+    <globalVariables>#Gs16_trqMinStrtUpRefTq_C#dd_foc_tunable_parameter.sldd#</globalVariables>
+    <globalVariables>#Gu16_facSpdCtlKi_C#dd_foc_tunable_parameter.sldd#</globalVariables>
+    <globalVariables>#Gu16_facSpdCtlKp_C#dd_foc_tunable_parameter.sldd#</globalVariables>
+    <globalVariables>#Gu16_phiMinOpnLpClsLpAgDvt_C#dd_foc_tunable_parameter.sldd#</globalVariables>
+    <globalVariables>#Gu16_psiPermMagFlx_C#dd_foc_tunable_parameter.sldd#</globalVariables>
+    <globalVariables>#Gu8_numPPNum_C#dd_foc_tunable_parameter.sldd#</globalVariables>
+    <globalVariables>#busPhCurrGen_SlwTaskIn#dd_foc_measurement_signal.sldd#</globalVariables>
+    <globalVariables>#busPhCurrGen_SlwTaskOut#dd_foc_measurement_signal.sldd#</globalVariables>
+    <globalVariables>#cfg_FastTaskCodeGeneration_v01#dd_foc_dictionary.sldd#</globalVariables>
+    <globalVariables>#dt_RadAng_s16r15b0#dd_foc_data_type.sldd#</globalVariables>
+    <globalVariables>#dt_RadAng_u16r15b0#dd_foc_data_type.sldd#</globalVariables>
+    <globalVariables>#dt_SpdCtrlIntgGain_u16p9b0#dd_foc_data_type.sldd#</globalVariables>
+    <globalVariables>#dt_SpdCtrlPropGain_u16p12b0#dd_foc_data_type.sldd#</globalVariables>
+    <globalVariables>#dt_Standardize_s16p15b0#dd_foc_data_type.sldd#</globalVariables>
+    <globalVariables>#dt_Standardize_u16p15b0#dd_foc_data_type.sldd#</globalVariables>
+    <globalVariables>#sint16#dd_foc_data_type.sldd#</globalVariables>
+    <globalVariables>#sint32#dd_foc_data_type.sldd#</globalVariables>
+    <globalVariables>#sint8#dd_foc_data_type.sldd#</globalVariables>
+    <hasBlockWithPeriodicDiscreteSampleTime>true</hasBlockWithPeriodicDiscreteSampleTime>
+    <hasInlineVariantBlock>true</hasInlineVariantBlock>
+    <hasNonVirtualConstantTs>true</hasNonVirtualConstantTs>
+    <hasStatesModifiedInOutputUpdate>true</hasStatesModifiedInOutputUpdate>
+    <hasVariantModelOrSubsystem>true</hasVariantModelOrSubsystem>
+    <inports type="ModelRefInfoRepo.InportInformation" uuid="b41b77d5-fa52-4220-91c0-a0f77cfd328a">
+      <isNotDerivPort>true</isNotDerivPort>
+      <RTWSignalIdentifier>busPhCurrGen_SlwTaskIn</RTWSignalIdentifier>
+      <compiledSignalLabel>busPhCurrGen_SlwTaskIn</compiledSignalLabel>
+      <designMax>inf</designMax>
+      <designMin>-inf</designMin>
+      <indexType>2</indexType>
+      <rateInfos type="ModelRefInfoRepo.RateInfo">
+        <compiled>true</compiled>
+        <nonFcnCallPartitionName>D1</nonFcnCallPartitionName>
+        <period>.01</period>
+        <priority>40</priority>
+        <rateIdx>1</rateIdx>
+      </rateInfos>
+      <rawRTWStorageClass>ExportedGlobal</rawRTWStorageClass>
+      <resolvedSignalObject>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</resolvedSignalObject>
+      <resolvedSignalObjectSource>dd_foc_measurement_signal.sldd</resolvedSignalObjectSource>
+      <resolvedSignalObjectType>2</resolvedSignalObjectType>
+      <trueHiers>0</trueHiers>
+      <executionInterface type="ModelRefInfoRepo.InputExecutionInterface" uuid="4edce879-ae69-42e5-8a7d-ef0390644ae1"/>
+      <sigNameToEMVCEMap type="ModelRefInfoRepo.SigNameEMVCEInfo" uuid="a98a0545-7490-4499-b3eb-882139e6bc46"/>
+    </inports>
+    <isBdInSimModeForSimCodegenVariants>false</isBdInSimModeForSimCodegenVariants>
+    <isInlineParamsOn>true</isInlineParamsOn>
+    <isNumAllowedInstancesOne>true</isNumAllowedInstancesOne>
+    <isOrigInportVirtualBus>false</isOrigInportVirtualBus>
+    <isOrigOutportVirtualBus>false</isOrigOutportVirtualBus>
+    <loggingSaveFormat>2</loggingSaveFormat>
+    <maxFreqHz>-1.0</maxFreqHz>
+    <numDStateRecs>11</numDStateRecs>
+    <numDataInputPorts>1</numDataInputPorts>
+    <numLoggableDStateRecs>11</numLoggableDStateRecs>
+    <numLoggableJacobianDStates>0</numLoggableJacobianDStates>
+    <numSigs>1</numSigs>
+    <origInportBusType></origInportBusType>
+    <origOutportBusOutputAsStruct>false</origOutportBusOutputAsStruct>
+    <origOutportBusType>BUS_PHCURRGEN_SLW_TASK_OUT</origOutportBusType>
+    <outports type="ModelRefInfoRepo.OutportInformation" uuid="7720825a-4703-4810-9b2e-7065c5e6ad90">
+      <designMax>inf</designMax>
+      <designMin>-inf</designMin>
+      <rateInfos type="ModelRefInfoRepo.RateInfo">
+        <compiled>true</compiled>
+        <nonFcnCallPartitionName>D1</nonFcnCallPartitionName>
+        <period>.01</period>
+        <priority>40</priority>
+        <rateIdx>1</rateIdx>
+      </rateInfos>
+      <resolvedSignalObject></resolvedSignalObject>
+      <trueHiers>0</trueHiers>
+      <executionInterface type="ModelRefInfoRepo.OutputExecutionInterface" uuid="9e0f6073-d38b-4309-92a8-eb3e97dc4ce0"/>
+      <sigNameToEMVCEMap type="ModelRefInfoRepo.SigNameEMVCEInfo" uuid="3f5fbfae-d6a5-440c-a012-2a1fe4eb3c25"/>
+    </outports>
+    <runtimeNonFcnCallRateInfos type="ModelRefInfoRepo.RateInfo">
+      <compiled>true</compiled>
+      <isEmpty>true</isEmpty>
+      <nonFcnCallPartitionName>D1</nonFcnCallPartitionName>
+      <period>.000125</period>
+      <priority>40</priority>
+      <rateIdx>0</rateIdx>
+    </runtimeNonFcnCallRateInfos>
+    <runtimeNonFcnCallRateInfos type="ModelRefInfoRepo.RateInfo">
+      <compiled>true</compiled>
+      <nonFcnCallPartitionName>D1</nonFcnCallPartitionName>
+      <period>.01</period>
+      <priority>40</priority>
+      <rateIdx>1</rateIdx>
+    </runtimeNonFcnCallRateInfos>
+    <sampleTimeInheritanceRule>2</sampleTimeInheritanceRule>
+    <solverStatusFlags>327</solverStatusFlags>
+    <standaloneEnumInfos type="ModelRefInfoRepo.StandaloneEnumInfo" uuid="c0f6cc48-6b75-43ab-9e75-d4425dafb1ac">
+      <defaultValue>OFF</defaultValue>
+      <enumName>ENM_MOTO_STATUS</enumName>
+      <labels>OFF</labels>
+      <labels>OPEN_LOOP</labels>
+      <labels>CLOSED_LOOP</labels>
+      <storageType>uint8</storageType>
+      <values>0</values>
+      <values>1</values>
+      <values>2</values>
+    </standaloneEnumInfos>
+    <standaloneEnumInfos type="ModelRefInfoRepo.StandaloneEnumInfo" uuid="e381dec0-eb93-4401-8108-907c8078ff0e">
+      <defaultValue>TRQ_CST</defaultValue>
+      <enumName>ENM_STRTUP_TRQ_STATUS</enumName>
+      <labels>TRQ_CST</labels>
+      <labels>TRQ_DECRE</labels>
+      <storageType>uint8</storageType>
+      <values>0</values>
+      <values>1</values>
+    </standaloneEnumInfos>
+    <standaloneEnumInfos type="ModelRefInfoRepo.StandaloneEnumInfo" uuid="3e205c2b-fdc6-47a4-b4ed-b0cf8b29ba2d">
+      <defaultValue>SENSOR</defaultValue>
+      <enumName>ENM_AG_POS_EVAL_MODE</enumName>
+      <labels>SENSOR</labels>
+      <labels>HYBRID</labels>
+      <labels>SENSORLESS</labels>
+      <storageType>uint8</storageType>
+      <values>0</values>
+      <values>1</values>
+      <values>2</values>
+    </standaloneEnumInfos>
+    <timingAndTaskingRegistry>&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;slexec_sto version=&quot;1.1&quot; packageUris=&quot;http://schema.mathworks.com/mf0/slexec_mm_sto/R2023a_202208151321&quot;&gt;
+  &lt;sto.Registry type=&quot;sto.Registry&quot; uuid=&quot;7fd5e688-3f63-4c13-92cc-9108a1a3d844&quot;&gt;
+    &lt;executionSpec&gt;Undetermined&lt;/executionSpec&gt;
+    &lt;identifier&gt;ASW_PhCurrGen&lt;/identifier&gt;
+    &lt;clockRegistry type=&quot;sto.ClockRegistry&quot; uuid=&quot;477a1a82-a8e8-49d6-a309-478a81ddd0fd&quot;&gt;
+      &lt;clocks type=&quot;sto.Timer&quot; uuid=&quot;dec60a62-856e-4dbf-b64e-cefddc88306f&quot;&gt;
+        &lt;clockTickConstraint&gt;PeriodicWithFixedResolution&lt;/clockTickConstraint&gt;
+        &lt;computedFundamentalDiscretePeriod&gt;.000125&lt;/computedFundamentalDiscretePeriod&gt;
+        &lt;fastestDiscreteRate type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;3234b731-cb33-4206-b04a-30b2c54b61c8&quot;/&gt;
+        &lt;isDefaultTimer&gt;true&lt;/isDefaultTimer&gt;
+        &lt;resolution&gt;.000125&lt;/resolution&gt;
+        &lt;timeAdvanceMode&gt;FixedStep&lt;/timeAdvanceMode&gt;
+        &lt;identifier&gt;ASW_PhCurrGen::defaultTimer&lt;/identifier&gt;
+        &lt;rates type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;3234b731-cb33-4206-b04a-30b2c54b61c8&quot;&gt;
+          &lt;annotation&gt;D1&lt;/annotation&gt;
+          &lt;clockId&gt;ASW_PhCurrGen::defaultTimer&lt;/clockId&gt;
+          &lt;colorIndex&gt;2&lt;/colorIndex&gt;
+          &lt;description&gt;离散 1&lt;/description&gt;
+          &lt;taskId&gt;_task0&lt;/taskId&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;5019f025-a295-4aad-a49f-06061850ad36&quot;&gt;
+            &lt;period&gt;.000125&lt;/period&gt;
+            &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/rates&gt;
+        &lt;rates type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;566d6691-12ca-48c0-8048-71c730450410&quot;&gt;
+          &lt;annotation&gt;D2&lt;/annotation&gt;
+          &lt;clockId&gt;ASW_PhCurrGen::defaultTimer&lt;/clockId&gt;
+          &lt;colorIndex&gt;3&lt;/colorIndex&gt;
+          &lt;description&gt;离散 2&lt;/description&gt;
+          &lt;rateIdx&gt;1&lt;/rateIdx&gt;
+          &lt;taskId&gt;_task0&lt;/taskId&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;888c5da6-8183-4065-b8ce-b31f2b85e1db&quot;&gt;
+            &lt;period&gt;.01&lt;/period&gt;
+            &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/rates&gt;
+        &lt;baseRate type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;e4a7921b-dde7-4b56-8ab9-c1949002db47&quot;&gt;
+          &lt;annotation&gt;D1&lt;/annotation&gt;
+          &lt;clockId&gt;ASW_PhCurrGen::defaultTimer&lt;/clockId&gt;
+          &lt;colorIndex&gt;2&lt;/colorIndex&gt;
+          &lt;description&gt;离散 1&lt;/description&gt;
+          &lt;taskId&gt;_task0&lt;/taskId&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;06669d86-0037-4e7f-89e9-8afe3ec7aa14&quot;&gt;
+            &lt;period&gt;.000125&lt;/period&gt;
+            &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/baseRate&gt;
+      &lt;/clocks&gt;
+      &lt;clocks type=&quot;sto.Event&quot; uuid=&quot;e5cf2f7b-47f6-4980-b370-77d891328539&quot;&gt;
+        &lt;eventType&gt;PARAMETER_CHANGE_EVENT&lt;/eventType&gt;
+        &lt;cNum&gt;1&lt;/cNum&gt;
+        &lt;clockType&gt;Event&lt;/clockType&gt;
+        &lt;identifier&gt;ParameterChangeEvent&lt;/identifier&gt;
+        &lt;rates type=&quot;sto.ModelWideEventRate&quot; uuid=&quot;45cc2b3f-8b17-4e77-be86-8fcd1d6da1e8&quot;&gt;
+          &lt;clockId&gt;ParameterChangeEvent&lt;/clockId&gt;
+          &lt;rateIdx&gt;-1&lt;/rateIdx&gt;
+          &lt;taskId&gt;ModelWideParameterChangeEvent&lt;/taskId&gt;
+          &lt;useForExecution&gt;NotForExecution&lt;/useForExecution&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;73e6cb70-f90e-47b1-bb0f-1051123a9a80&quot;&gt;
+            &lt;period&gt;inf&lt;/period&gt;
+            &lt;rateType&gt;ModelWideParameterChangeEvent&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/rates&gt;
+      &lt;/clocks&gt;
+      &lt;timeAdvanceMode&gt;FixedStep&lt;/timeAdvanceMode&gt;
+    &lt;/clockRegistry&gt;
+    &lt;taskRegistry type=&quot;sto.TaskRegistry&quot; uuid=&quot;c23d19ee-ddcb-45dc-86a9-79795e676070&quot;&gt;
+      &lt;rootTaskHierarchyElements type=&quot;sto.Task&quot; uuid=&quot;392f5d92-a444-4834-8f03-d3d3a3fcf14d&quot;&gt;
+        &lt;isExplicit&gt;true&lt;/isExplicit&gt;
+        &lt;rates type=&quot;sto.ModelWideEventRate&quot; uuid=&quot;f4470540-f0ac-4edf-a4ea-a9c4e541e21c&quot;&gt;
+          &lt;clockId&gt;ParameterChangeEvent&lt;/clockId&gt;
+          &lt;rateIdx&gt;-1&lt;/rateIdx&gt;
+          &lt;taskId&gt;ModelWideParameterChangeEvent&lt;/taskId&gt;
+          &lt;useForExecution&gt;NotForExecution&lt;/useForExecution&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;082b9fb3-c143-4eb7-9b09-fe7524b8e88d&quot;&gt;
+            &lt;period&gt;inf&lt;/period&gt;
+            &lt;rateType&gt;ModelWideParameterChangeEvent&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/rates&gt;
+        &lt;schedulingClockId&gt;ParameterChangeEvent&lt;/schedulingClockId&gt;
+        &lt;timeKeeperClockId&gt;ASW_PhCurrGen::defaultTimer&lt;/timeKeeperClockId&gt;
+        &lt;elementType&gt;Task&lt;/elementType&gt;
+        &lt;identifier&gt;ModelWideParameterChangeEvent&lt;/identifier&gt;
+        &lt;priority&gt;-1&lt;/priority&gt;
+      &lt;/rootTaskHierarchyElements&gt;
+      &lt;rootTaskHierarchyElements type=&quot;sto.Task&quot; uuid=&quot;5e3716aa-f0df-40a1-960f-56f001b9456a&quot;&gt;
+        &lt;isExecutable&gt;true&lt;/isExecutable&gt;
+        &lt;orderIndex&gt;1&lt;/orderIndex&gt;
+        &lt;rates type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;de160166-1ac8-4a16-bfec-162dbe76e712&quot;&gt;
+          &lt;annotation&gt;D1&lt;/annotation&gt;
+          &lt;clockId&gt;ASW_PhCurrGen::defaultTimer&lt;/clockId&gt;
+          &lt;colorIndex&gt;2&lt;/colorIndex&gt;
+          &lt;description&gt;离散 1&lt;/description&gt;
+          &lt;taskId&gt;_task0&lt;/taskId&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;48ac9691-3e1f-4dda-beef-fac46810b33c&quot;&gt;
+            &lt;period&gt;.000125&lt;/period&gt;
+            &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/rates&gt;
+        &lt;rates type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;11b7d28d-54d0-46ac-af45-17032b110c9f&quot;&gt;
+          &lt;annotation&gt;D2&lt;/annotation&gt;
+          &lt;clockId&gt;ASW_PhCurrGen::defaultTimer&lt;/clockId&gt;
+          &lt;colorIndex&gt;3&lt;/colorIndex&gt;
+          &lt;description&gt;离散 2&lt;/description&gt;
+          &lt;rateIdx&gt;1&lt;/rateIdx&gt;
+          &lt;taskId&gt;_task0&lt;/taskId&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;8f2fb286-d924-447e-92f2-8de4e3eb65ea&quot;&gt;
+            &lt;period&gt;.01&lt;/period&gt;
+            &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/rates&gt;
+        &lt;schedulingClockId&gt;ASW_PhCurrGen::defaultTimer&lt;/schedulingClockId&gt;
+        &lt;timeKeeperClockId&gt;ASW_PhCurrGen::defaultTimer&lt;/timeKeeperClockId&gt;
+        &lt;elementType&gt;Task&lt;/elementType&gt;
+        &lt;identifier&gt;_task0&lt;/identifier&gt;
+        &lt;priority&gt;40&lt;/priority&gt;
+      &lt;/rootTaskHierarchyElements&gt;
+      &lt;taskDependencyGraph type=&quot;sto.SerializedTaskConnectionList&quot; uuid=&quot;6b155278-e62e-46fa-9c67-f35a7c21c44f&quot;&gt;
+        &lt;clockIdentifier&gt;ASW_PhCurrGen::defaultTimer&lt;/clockIdentifier&gt;
+        &lt;taskIdentifier&gt;_task0&lt;/taskIdentifier&gt;
+      &lt;/taskDependencyGraph&gt;
+      &lt;taskDependencyGraph type=&quot;sto.SerializedTaskConnectionList&quot; uuid=&quot;f5ee19ae-2ccc-4a3d-bc72-c7f46b59d329&quot;&gt;
+        &lt;clockIdentifier&gt;ParameterChangeEvent&lt;/clockIdentifier&gt;
+        &lt;taskIdentifier&gt;ModelWideParameterChangeEvent&lt;/taskIdentifier&gt;
+      &lt;/taskDependencyGraph&gt;
+      &lt;taskPriorityDirection&gt;HighNumberLast&lt;/taskPriorityDirection&gt;
+    &lt;/taskRegistry&gt;
+  &lt;/sto.Registry&gt;
+&lt;/slexec_sto&gt;</timingAndTaskingRegistry>
+    <varSigHier>,,</varSigHier>
+    <FMUBlockMap type="ModelRefInfoRepo.FMUBlockInfo" uuid="5f43cd9c-dca5-46fb-ab2e-acb01a5f03e2"/>
+    <codeGenInfo type="ModelRefInfoRepo.CodeGenInformation" uuid="71856000-5f60-44a0-81f8-4ec9e9885d2e"/>
+    <compiledVariantInfos type="ModelRefInfoRepo.CompiledVariantInfoMap" uuid="b4dd3548-afb4-49c6-a880-e2733b3b6020"/>
+    <configSettingsForConsistencyChecks type="ModelRefInfoRepo.ConfigSettingsForConsistencyChecks" uuid="d0f2e30e-3886-4a83-a66e-22c71e9bf231">
+      <consistentOutportInitialization>true</consistentOutportInitialization>
+      <fixedStepSize>.000125</fixedStepSize>
+      <frameDiagnosticSetting>2</frameDiagnosticSetting>
+      <hasHybridSampleTime>true</hasHybridSampleTime>
+      <signalLoggingSaveFormat>2</signalLoggingSaveFormat>
+      <simSIMDOptimization>1</simSIMDOptimization>
+      <solverName>FixedStepDiscrete</solverName>
+      <solverType>SOLVER_TYPE_FIXEDSTEP</solverType>
+      <hardwareSettings type="ModelRefInfoRepo.HardwareSettings" uuid="83cd1df6-f702-451f-8124-5766b300c1a4">
+        <prodBitPerChar>8</prodBitPerChar>
+        <prodBitPerDouble>64</prodBitPerDouble>
+        <prodBitPerFloat>32</prodBitPerFloat>
+        <prodBitPerInt>32</prodBitPerInt>
+        <prodBitPerLong>32</prodBitPerLong>
+        <prodBitPerLongLong>64</prodBitPerLongLong>
+        <prodBitPerPointer>32</prodBitPerPointer>
+        <prodBitPerPtrDiffT>32</prodBitPerPtrDiffT>
+        <prodBitPerShort>16</prodBitPerShort>
+        <prodBitPerSizeT>32</prodBitPerSizeT>
+        <prodEndianess>1</prodEndianess>
+        <prodLargestAtomicFloat>1</prodLargestAtomicFloat>
+        <prodLargestAtomicInteger>3</prodLargestAtomicInteger>
+        <prodShiftRight>true</prodShiftRight>
+        <prodWordSize>32</prodWordSize>
+      </hardwareSettings>
+    </configSettingsForConsistencyChecks>
+    <controllableInputRatesMap type="ModelRefInfoRepo.VarTsUIDMap" uuid="7b0d52f3-5b9e-4115-b2a8-32a480d28ed7"/>
+    <controllableOutputRatesMap type="ModelRefInfoRepo.VarTsUIDMap" uuid="22b62c94-05da-4627-bb3f-a747fcfa75b0"/>
+    <dataPortGroup type="ModelRefInfoRepo.DataPortGroup" uuid="1faffc5c-c070-4e03-9458-5c33bfe2dbc3">
+      <compDataInputPorts>0</compDataInputPorts>
+      <compDataOutputPorts>0</compDataOutputPorts>
+      <dataInputPorts>0</dataInputPorts>
+      <dataOutputPorts>0</dataOutputPorts>
+    </dataPortGroup>
+    <expFcnUnconnectedDataPortGroup type="ModelRefInfoRepo.DataPortGroup" uuid="940c470e-7c9f-4373-af84-591e38207657"/>
+    <interfaceParameterInfo type="ModelRefInfoRepo.InterfaceParameterInfo" uuid="e68e5577-07d8-4d60-b4b7-14cc7efd75fe">
+      <globalVariables type="ModelRefInfoRepo.FixedAndFloatParameter" uuid="a097f264-9b68-496a-b08d-e80c8e575253">
+        <numericTypeString>sfix16_En15</numericTypeString>
+        <datatypeName>dt_Standardize_s16p15b0</datatypeName>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <netSVCE>true</netSVCE>
+        <numDimensions>2</numDimensions>
+        <parameterName>Gs16_nMinSenlRefElecSpd_C</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.FixedAndFloatParameter" uuid="861e85d8-80d5-4b46-aaea-11b301f4047d">
+        <numericTypeString>sfix16_En15</numericTypeString>
+        <datatypeName>dt_Standardize_s16p15b0</datatypeName>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <netSVCE>true</netSVCE>
+        <numDimensions>2</numDimensions>
+        <parameterName>Gs16_nMinStrtUpElecSpd_C</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.FixedAndFloatParameter" uuid="27c81b44-537f-4ae8-a036-a1060ebc338c">
+        <numericTypeString>sfix16_En15</numericTypeString>
+        <datatypeName>dt_Standardize_s16p15b0</datatypeName>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <netSVCE>true</netSVCE>
+        <numDimensions>2</numDimensions>
+        <parameterName>Gs16_nOpnLpConvActElecSpd_C</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.FixedAndFloatParameter" uuid="22ea0037-d84d-46aa-8108-b62ad04a4602">
+        <numericTypeString>sfix16_En15</numericTypeString>
+        <datatypeName>dt_Standardize_s16p15b0</datatypeName>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <netSVCE>true</netSVCE>
+        <numDimensions>2</numDimensions>
+        <parameterName>Gs16_nShOffActElecSpd_C</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.FixedAndFloatParameter" uuid="40e1b810-4f4b-4361-a20e-524f7fd4df7a">
+        <numericTypeString>sfix16_En15</numericTypeString>
+        <datatypeName>dt_Standardize_s16p15b0</datatypeName>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <netSVCE>true</netSVCE>
+        <numDimensions>2</numDimensions>
+        <parameterName>Gs16_nStrtUpProcTolcElecSpd_C</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.FixedAndFloatParameter" uuid="7b3108d7-23e5-47d1-aa21-6547658ace90">
+        <numericTypeString>sfix16_En15</numericTypeString>
+        <datatypeName>dt_Standardize_s16p15b0</datatypeName>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <netSVCE>true</netSVCE>
+        <numDimensions>2</numDimensions>
+        <parameterName>Gs16_trqInitCondTq_C</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.FixedAndFloatParameter" uuid="cf1ee1a0-0a02-4310-b1b7-1faa2fa05b26">
+        <numericTypeString>sfix16_En15</numericTypeString>
+        <datatypeName>dt_Standardize_s16p15b0</datatypeName>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <netSVCE>true</netSVCE>
+        <numDimensions>2</numDimensions>
+        <parameterName>Gs16_trqMaxStrtUpTq_C</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.FixedAndFloatParameter" uuid="cd747b8a-fd3e-4add-b66a-5e2db33092d5">
+        <numericTypeString>sfix16_En15</numericTypeString>
+        <datatypeName>dt_Standardize_s16p15b0</datatypeName>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <netSVCE>true</netSVCE>
+        <numDimensions>2</numDimensions>
+        <parameterName>Gs16_trqMinStrtUpRefTq_C</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.FixedAndFloatParameter" uuid="ecc09830-a82f-463b-9bf6-f8545f98c760">
+        <numericTypeString>sfix16_En2</numericTypeString>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <netSVCE>true</netSVCE>
+        <numDimensions>2</numDimensions>
+        <parameterName>Gs16_facStrtUpTqRiseRate_C</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.FixedAndFloatParameter" uuid="b784e15e-0f89-4be8-baab-3c31ec54bcad">
+        <numericTypeString>sfix16_En9</numericTypeString>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <netSVCE>true</netSVCE>
+        <numDimensions>2</numDimensions>
+        <parameterName>Gs16_facStrtUpTrqDecFallRate_C</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.FixedAndFloatParameter" uuid="e2a5dad1-08a6-4f9f-b4ae-138f183284b7">
+        <numericTypeString>sfix16_En9</numericTypeString>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <netSVCE>true</netSVCE>
+        <numDimensions>2</numDimensions>
+        <parameterName>Gs16_facStrtUpTrqDecRiseRate_C</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.FixedAndFloatParameter" uuid="5dfd99cb-494e-4ffb-961c-0bc4c40d5dbb">
+        <numericTypeString>ufix16_En12</numericTypeString>
+        <datatypeName>dt_SpdCtrlPropGain_u16p12b0</datatypeName>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <netSVCE>true</netSVCE>
+        <numDimensions>2</numDimensions>
+        <parameterName>Gu16_facSpdCtlKp_C</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.FixedAndFloatParameter" uuid="a799f096-813d-49b3-8302-31e38d22ec0c">
+        <numericTypeString>ufix16_En15</numericTypeString>
+        <datatypeName>dt_Standardize_u16p15b0</datatypeName>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <netSVCE>true</netSVCE>
+        <numDimensions>2</numDimensions>
+        <parameterName>Gu16_psiPermMagFlx_C</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.FixedAndFloatParameter" uuid="ad947ea6-e969-4e86-83c1-2833302d9e1f">
+        <numericTypeString>ufix16_S9p5873799242852573en5</numericTypeString>
+        <datatypeName>dt_RadAng_u16r15b0</datatypeName>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <netSVCE>true</netSVCE>
+        <numDimensions>2</numDimensions>
+        <parameterName>Gu16_phiMinOpnLpClsLpAgDvt_C</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="79c203b8-af7a-4aa9-8e87-1ade34833887">
+        <datatypeID>5</datatypeID>
+        <datatypeName>dt_SpdCtrlIntgGain_u16p9b0</datatypeName>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <netSVCE>true</netSVCE>
+        <numDimensions>2</numDimensions>
+        <parameterName>Gu16_facSpdCtlKi_C</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="40de60d8-ff32-4057-be85-4d38149380d9">
+        <datatypeID>3</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <netSVCE>true</netSVCE>
+        <numDimensions>2</numDimensions>
+        <parameterName>Gu8_numPPNum_C</parameterName>
+      </globalVariables>
+    </interfaceParameterInfo>
+    <messageInfo type="ModelRefInfoRepo.MessageInformation" uuid="ce5c70e8-7826-44bb-8fe5-181f79556bbd"/>
+    <methodInfo type="ModelRefInfoRepo.MethodExistenceInfo" uuid="39872fb7-3c7d-49a0-9fcb-942e5d3bb531">
+      <hasSystemInitializeMethod>true</hasSystemInitializeMethod>
+      <hasSystemResetMethod>true</hasSystemResetMethod>
+      <hasTerminateMethod>true</hasTerminateMethod>
+      <hasUpdateMethod>true</hasUpdateMethod>
+    </methodInfo>
+    <periodicEventPortUnsupportedBlockInfo type="ModelRefInfoRepo.PeriodicEventPortUnsupportedBlockInfo" uuid="e3bf1850-e1da-4381-b70c-c5b2984ce29c"/>
+    <portGroupsRequireSameRate type="ModelRefInfoRepo.PortGroupsRequireSameRate" uuid="5137dd8f-8e95-4997-a6b1-311be08c6526">
+      <DSMPortGroups type="ModelRefInfoRepo.NameToPortGroupIdxVectMap" uuid="a7a37020-6ab9-4877-aaaf-363c958fe956"/>
+      <GlobalDSMPortGroups type="ModelRefInfoRepo.NameToPortGroupIdxVectMap" uuid="e9e972a6-28ca-4a29-8c82-f20b8065f662"/>
+      <mergedPortGroups type="ModelRefInfoRepo.NameToPortGroupIdxVectMap" uuid="faba472c-3918-4fb2-8251-afb791a5e9b8"/>
+    </portGroupsRequireSameRate>
+    <rateBasedMdlGlobalDSMRateSpec type="ModelRefInfoRepo.GlobalDSMRateSpecMap" uuid="42075f42-5105-4de0-87c7-e01fd996be53"/>
+    <rateSpecOfGlobalDSMAccessedByDescExpFcnMdlMap type="ModelRefInfoRepo.GlobalDSMRateSpecMap" uuid="25e2a391-a9e2-4399-8a1b-a794b41b5f6e"/>
+    <rootBlockDiagramInterface type="ci.Model" uuid="e26c25af-11f9-46b4-b665-22f34f6f66fc">
+      <p_RootComponentInterface type="ci.ComponentInterface" uuid="76cc8824-2be9-4b36-8e9b-3351472d7e3b">
+        <p_InputPorts type="ci.SignalInterface" uuid="15439bcd-5e28-4c5c-a443-da6535e64f71">
+          <p_ComputedNumericDimensions>1.0</p_ComputedNumericDimensions>
+          <p_ComputedSampleTime>.01</p_ComputedSampleTime>
+          <p_ComputedSampleTime>0.0</p_ComputedSampleTime>
+          <p_ComputedType>BUS_PHCURRGEN_SLW_TASK_IN</p_ComputedType>
+          <p_Name>busPhCurrGen_SlwTaskIn</p_Name>
+        </p_InputPorts>
+        <p_Name>ASW_PhCurrGen</p_Name>
+        <p_OutputPorts type="ci.SignalInterface" uuid="1b52f8ed-da5d-407f-83fc-5c92f9505f3d">
+          <p_ComputedNumericDimensions>1.0</p_ComputedNumericDimensions>
+          <p_ComputedSampleTime>.01</p_ComputedSampleTime>
+          <p_ComputedSampleTime>0.0</p_ComputedSampleTime>
+          <p_ComputedType>BUS_PHCURRGEN_SLW_TASK_OUT</p_ComputedType>
+          <p_Name>busPhCurrGen_SlwTaskOut</p_Name>
+        </p_OutputPorts>
+        <p_Type>ROOT</p_Type>
+      </p_RootComponentInterface>
+    </rootBlockDiagramInterface>
+    <simulinkFunctions type="ModelRefInfoRepo.SimulinkFunctions" uuid="1ab7a90e-1e2d-4de2-9889-f5a8711652fd">
+      <compSimulinkFunctionCatalog></compSimulinkFunctionCatalog>
+    </simulinkFunctions>
+    <sltpContext type="sltp.mm.core.Context" uuid="399ce88e-aa77-4a7d-90c3-c20cbf0b71b8">
+      <dataEventContexts type="sltp.mm.core.DataEventContext" uuid="16cd4705-6cf5-45e8-ad7b-a748f31dd6de">
+        <id>composite:busMotoCtl_FstTaskIn|u16_ampDycAmp</id>
+      </dataEventContexts>
+      <dataEventContexts type="sltp.mm.core.DataEventContext" uuid="95a03d40-9cd4-48c0-8064-b78d0dbed361">
+        <id>composite:busMotoCtl_MedTaskIn|iRefDQCurr</id>
+      </dataEventContexts>
+      <dataEventContexts type="sltp.mm.core.DataEventContext" uuid="38be7223-fd5e-4934-94e2-03f2654e6c60">
+        <id>composite:busMotoCtl_MedTaskIn|s16_iRefDaxQaxCurr</id>
+      </dataEventContexts>
+      <dataEventContexts type="sltp.mm.core.DataEventContext" uuid="7d42d86b-b678-47c9-966c-a35323db853c">
+        <id>composite:busMotoCtl_SlwTaskIn|s16_nRefElecSpd</id>
+      </dataEventContexts>
+      <globalData type="sltp.mm.core.GlobalData" uuid="6f44fed8-19dc-4c58-97f0-7f1d7f7aec1d">
+        <dataName>portacSensMechAng</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="2b69b140-4303-401c-9bbb-36ef0ead6a22">
+        <dataName>portarActElctAng</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="3d9ab46c-0ebb-4054-984e-a5c898e09caf">
+        <dataName>portarCalcElctAng</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="0dbfef95-c2d5-432f-a5cc-63edd83dd911">
+        <dataName>portarCalibElecAng</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="98bceec0-1dd9-4fb7-b583-6a6b02053f25">
+        <dataName>portarDQVoltAng</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="acafb451-40ab-4a6c-bf5d-f417af31c6db">
+        <dataName>portarElctAng</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="f50ad7e5-74f1-477f-abfc-0c09511131a1">
+        <dataName>portarEstActElctAng</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="d8279269-c7c1-4dc0-85d0-e9213f769559">
+        <dataName>portarStrtUpElctAng</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="1866d0b5-78b6-429b-ac9b-cc0d97e79ebd">
+        <dataName>portbolFastFiltFlag</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="a5c32036-6516-4885-95cc-4918c10b403c">
+        <dataName>portbolFastFiltIsActv</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="8eb00e5b-1c5d-42ba-b6ad-4224ec36feb8">
+        <dataName>portbolFocIsActv</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="7530b2aa-6894-4243-a7a5-162d028af64a">
+        <dataName>portbolRefTrqIsLtd</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="d3f39a6b-26a8-401e-aa0b-a80037316360">
+        <dataName>portbolSensFlag</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="7b8fa890-854e-4935-abd5-62a4593e753e">
+        <dataName>portbusFastTaskInp</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="ef8849ac-78c7-41f8-b51b-cbdf5fc9e819">
+        <dataName>portbusFastTaskOutp</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="41c8533e-1c78-414e-bdee-23aa6f6202ad">
+        <dataName>portbusFastTaskOutp_arEstActElctAng</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="3403e952-c4de-4226-b380-110844d5a88c">
+        <dataName>portbusFastTaskOutp_genMaxNormVoltAmp</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="711b6841-8d29-4e11-b0d0-417d4b98d2ca">
+        <dataName>portbusFastTaskOutp_genXYZDutyCycl</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="01d6a9f7-422c-4132-bcfc-f8b688d0ec91">
+        <dataName>portbusMedTaskInp</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="a49dc74c-8e60-422a-85dc-22cbcc56e822">
+        <dataName>portbusMedTaskInp_a</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="48aae604-4fc6-4e12-84f3-b96c012b2ac3">
+        <dataName>portbusMedTaskInp_acSensMechAng</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="a065ca61-94dc-490b-bc33-1048ed4b70ca">
+        <dataName>portbusMedTaskInp_arCalibElecAng</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="f78aab4e-ca5d-45c4-83c9-0ef6b98a92d2">
+        <dataName>portbusMedTaskInp_arEstActElctAng</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="73959c69-1a62-436a-a463-3c79c123e306">
+        <dataName>portbusMedTaskInp_arStrtUpElctAng</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="7e22b3f7-a080-4a74-bb94-e2ae13921f5a">
+        <dataName>portbusMedTaskInp_enmAngPosEvalMode</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="83b241b2-7e06-4796-8ed5-ae0c086216d6">
+        <dataName>portbusMedTaskInp_enmMotStas</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="22ec08c7-d8c6-480f-b1ee-0dd480e926ad">
+        <dataName>portbusMedTaskInp_genMaxNormVoltAmp</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="baa2be3d-bba3-4e94-b759-d5f70979b3be">
+        <dataName>portbusMedTaskInp_genXYZDutyCycl</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="73bd5cdd-c3d7-405a-b0f2-da868c6fc70b">
+        <dataName>portbusMedTaskInp_iActXYZCurr</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="81a8f63e-52c5-4f82-903f-2f6b68dfdcec">
+        <dataName>portbusMedTaskInp_iCalibCurr</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="0e98e7e8-bf90-4eec-91e4-6d689e9c5d02">
+        <dataName>portbusMedTaskInp_iRefDQCurr</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="40ecae64-da19-4ad3-99c1-7ae41be66cd5">
+        <dataName>portbusMedTaskInp_nRefMechSpd</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="62881c0b-80e0-44d0-8323-346042deac80">
+        <dataName>portbusMedTaskInp_vtSplyVolt</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="2fefa026-df77-42ad-ae13-f310f83cc0e2">
+        <dataName>portbusMedTaskInp_wRefElctSpd</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="bcc2afc8-d979-48af-9f17-1f219bd17d86">
+        <dataName>portbusMedTaskOutp</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="336c1525-dbcf-4620-bdda-6d39bfa489cc">
+        <dataName>portbusMedTaskOutp_arActElctAng</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="8b59f64d-8c91-4701-b9d1-590923bf10bc">
+        <dataName>portbusMedTaskOutp_arCalcElctAng</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="282d375f-97fe-4b11-94ff-0c6d183228ad">
+        <dataName>portbusMedTaskOutp_arDQVoltAng</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="8c19cac2-4a9c-47d5-b414-6f2be83be11e">
+        <dataName>portbusMedTaskOutp_genDutyCyclAmp</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="e1da33b1-59a6-4185-a98f-f4000b7e6754">
+        <dataName>portbusMedTaskOutp_iActAlphBetaCurr</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="560cd456-091d-4e8e-bcd1-cae9bec87c7b">
+        <dataName>portbusMedTaskOutp_iActDQCurr</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="a7067574-ba54-439d-a6c5-815c2dc8d0e2">
+        <dataName>portbusMedTaskOutp_iActDirCurr</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="e2a2f829-633b-4462-a43c-b7e7293a276f">
+        <dataName>portbusMedTaskOutp_iActQdrtCurr</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="c07c138e-8a75-4010-a4a1-dd1ff3701877">
+        <dataName>portbusMedTaskOutp_iDC</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="27e2883e-5079-49f5-8d2f-5cb7970a19de">
+        <dataName>portbusMedTaskOutp_vtModtDQVolt</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="63be2049-1abd-4461-bd39-aa55f207f7f0">
+        <dataName>portbusMedTaskOutp_vtRefDQVolt</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="8a036769-eac0-4702-a89c-84de59962d5c">
+        <dataName>portbusMedTaskOutp_wActElctSpd</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="8f3acaf6-0f69-48f3-a809-4a074640b86a">
+        <dataName>portbusMedTaskOutp_wPredActElctSpd</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="fe9a992d-db96-405b-ab92-33caa46cda29">
+        <dataName>portbusMedTaskOutp_wStrtUpElctSpd</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="068a1efd-8780-470b-a755-41bb6dbedd75">
+        <dataName>portbusMotCtl_FastTaskInp</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="75bc9c32-adb0-4531-a5e3-e62ea0a0bab8">
+        <dataName>portbusMotCtl_FastTaskOutp</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="b6886b71-7247-4406-83cd-e44ef36d69c1">
+        <dataName>portbusMotCtl_FastTaskOutp_arEstActElctAng</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="b57c4b5a-9041-43a9-a49f-10e91ad71013">
+        <dataName>portbusMotCtl_FastTaskOutp_arStrtUpElctAng</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="194c3881-a843-456a-ad07-a5ddbb236100">
+        <dataName>portbusMotCtl_FastTaskOutp_genMaxNormVoltAmp</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="f363dfa9-52f6-479b-9844-03d9f9581339">
+        <dataName>portbusMotCtl_FastTaskOutp_genXYZDutyCycl</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="6c4fa423-6ee5-4551-a0a7-3b8056e529a5">
+        <dataName>portbusMotCtl_FastTaskOutp_u16_ampMaxNrmVltgAmp</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="0493e8ca-a73f-4075-a83b-7cd582ef1fb1">
+        <dataName>portbusMotCtl_FastTaskOutp_u16_dcycPhDyc</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="117adc6d-5003-4301-8b5b-d36717a54e36">
+        <dataName>portbusMotCtl_FastTaskOutp_u16_phiModulActElecAg</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="f2a84102-75ca-4ca2-a253-cf2c911a18f8">
+        <dataName>portbusMotCtl_MedTaskInp</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="30c9a7d5-9fe5-499b-a558-0008e9ee6dad">
+        <dataName>portbusMotCtl_MedTaskOutp</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="f758f1ae-e004-45b3-96dc-44c4d7187864">
+        <dataName>portbusMotCtl_MedTaskOutp_arActElctAng</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="6d22740a-495c-4eb6-80c1-07ee87188020">
+        <dataName>portbusMotCtl_MedTaskOutp_arCalcElctAng</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="b0713aa0-9f52-439e-87a6-f7d6245687d2">
+        <dataName>portbusMotCtl_MedTaskOutp_arDQVoltAng</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="3c458276-69b5-4713-8b17-e95cf859bec8">
+        <dataName>portbusMotCtl_MedTaskOutp_arElctAngErrTemp</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="f2e00ad3-c0f2-4a86-ad1f-ba1d58eeddf5">
+        <dataName>portbusMotCtl_MedTaskOutp_arStrtUpErrElctAng</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="2348447d-62c5-4c41-82b8-1e1567a3945f">
+        <dataName>portbusMotCtl_MedTaskOutp_genDutyCyclAmp</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="286bcb23-5902-4b66-96c4-4289aeebf070">
+        <dataName>portbusMotCtl_MedTaskOutp_iActDQCurr</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="b26c91f3-428b-4c55-81e8-ace11fdf1542">
+        <dataName>portbusMotCtl_MedTaskOutp_s16_iActDaxQaxCurr</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="f29f052d-af7d-4e99-b085-63ffda8e0c81">
+        <dataName>portbusMotCtl_MedTaskOutp_s16_nActElecSpd</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="335f1531-15da-437e-99c8-36bce9327585">
+        <dataName>portbusMotCtl_MedTaskOutp_s16_nPredActElecSpd</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="245c3725-3c81-4f5c-b4e9-f42ab7cdb4c5">
+        <dataName>portbusMotCtl_MedTaskOutp_s16_uModulDaxQaxVltg</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="692b55c9-0d17-401c-a3db-d7ee6470affb">
+        <dataName>portbusMotCtl_MedTaskOutp_s16_uRefDaxVltg</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="babce90a-65ff-4f23-acf8-4d68ed8c85ea">
+        <dataName>portbusMotCtl_MedTaskOutp_tqStrtUpRefTrq</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="8e3d3b0e-c811-42fb-9760-c13fc38b2c25">
+        <dataName>portbusMotCtl_MedTaskOutp_u16_ampDycAmp</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="404a7f66-8c07-4ff4-9da8-ddf610a4f611">
+        <dataName>portbusMotCtl_MedTaskOutp_u16_phiActElecAg</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="7d234c1d-9811-4847-9d73-a71a6eaaac9c">
+        <dataName>portbusMotCtl_MedTaskOutp_u16_phiDaxQaxVltgAg</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="f8127fda-6431-43af-a80e-e5eb16b9ccb2">
+        <dataName>portbusMotCtl_MedTaskOutp_u16_phiSenlElecAgSensElecAgDvt</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="be367895-81f3-4516-8544-75bc1d4bb7ff">
+        <dataName>portbusMotCtl_MedTaskOutp_vtModtDQVolt</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="1965e2dc-757b-4e87-be06-fb2e859e0175">
+        <dataName>portbusMotCtl_MedTaskOutp_vtRefDirVolt</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="9adcd19c-9c80-45fd-b1fc-eff16d9cc554">
+        <dataName>portbusMotCtl_MedTaskOutp_wActElctSpd</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="a7ec1c31-872f-4b96-8d6f-f85034d6a2c7">
+        <dataName>portbusMotCtl_MedTaskOutp_wPredActElctSpd</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="385d5493-daf9-47b9-bc3f-1c20cc488307">
+        <dataName>portbusMotCtl_MedTaskOutp_wStrtUpElctSpd</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="3ba90a68-7635-475a-8cd0-5570ac7f9ec9">
+        <dataName>portbusMotCtl_SlowTaskInp</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="66039a73-f647-4c46-8240-69eca6247d10">
+        <dataName>portbusMotCtl_SlowTaskOutp</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="6bf65cf1-0e02-435d-8abd-37ef4669b9aa">
+        <dataName>portbusMotCtl_SlowTaskOutp_AngSensCalib_Status</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="77a43d65-6433-42f8-ad16-c7913fe44ca7">
+        <dataName>portbusMotCtl_SlowTaskOutp_arCalibElecAng</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="bf325e52-cf36-4fe6-b98a-f587c5c38a37">
+        <dataName>portbusMotCtl_SlowTaskOutp_arSensErrMechAng</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="db4664ac-cc79-40c7-9213-a9414fa41397">
+        <dataName>portbusMotCtl_SlowTaskOutp_bolCalibSuccFlag</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="588919c2-34cd-46d5-ba60-c011ba35f6e0">
+        <dataName>portbusMotCtl_SlowTaskOutp_bolDrtnFlag</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="33a2d2f3-1092-44cc-8c49-1e2d1212a893">
+        <dataName>portbusMotCtl_SlowTaskOutp_enmMotStas</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="41a06ebd-8967-410a-bdcc-f466bb0845c5">
+        <dataName>portbusMotCtl_SlowTaskOutp_enm_stMotoSt</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="19cfbede-ef07-434b-8b07-22eff5af8dc4">
+        <dataName>portbusMotCtl_SlowTaskOutp_iActLineCurr</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="03941214-300e-4c4c-b714-2ed74dec98b7">
+        <dataName>portbusMotCtl_SlowTaskOutp_iCalibCurr</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="6a8269da-7e1a-4abf-bf02-1950ec261d6f">
+        <dataName>portbusMotCtl_SlowTaskOutp_iEstSplyCurr</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="e356e450-b753-46f3-a4a3-77e247b9ac1a">
+        <dataName>portbusMotCtl_SlowTaskOutp_iRefDQCurr</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="3c53c8e5-e00d-4ee5-b8ab-453eacd851db">
+        <dataName>portbusMotCtl_SlowTaskOutp_mtrAlgPermFail</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="b6473f1f-335b-4e6e-8db1-84898f086734">
+        <dataName>portbusMotCtl_SlowTaskOutp_mtrPermBlk</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="57a00803-fccc-48a0-bef6-81b454647890">
+        <dataName>portbusMotCtl_SlowTaskOutp_mtrTmprBlk</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="02d7b3b6-4e88-4ad3-a9ae-2529465ce425">
+        <dataName>portbusMotCtl_SlowTaskOutp_s16_iRefDaxQaxCurr</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="2257cca9-1c41-4142-8e18-0c48a4f825fa">
+        <dataName>portbusMotCtl_SlowTaskOutp_tqRefTrq</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="f4c89be5-af9f-4312-9786-b5759d2e1bad">
+        <dataName>portbusMotCtl_SlowTaskOutp_wStrtUpElctSpd</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="fcb0049f-1344-4bba-88d5-9215dbd22f53">
+        <dataName>portbusMotCtrlStatMachInp</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="459eeda6-41fb-4010-9f8e-efd0232e65ba">
+        <dataName>portbusMotCtrlStatMachOutp</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="d769b0c6-8489-4a81-8f15-74d6adb1e329">
+        <dataName>portbusMotCtrlStatMachOutp_enmMotStas</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="47743c94-e998-4737-a625-cdfe1b1b0787">
+        <dataName>portbusMotCtrlStatMachOutp_mtrPermBlk</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="37aa7994-961a-451a-bf42-5ad68c80dcf4">
+        <dataName>portbusMotCtrlStatMachOutp_mtrTmprBlk</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="6d752eb2-8250-4f6e-afe3-736636ec3a85">
+        <dataName>portbusMotCtrlStatMachOutp_tqUnBlkTrqInitCond</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="196a53f0-1d88-4b69-ab74-cb33159043a1">
+        <dataName>portbusMotoCtl_FstTaskIn</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="68d7ea5a-90fe-4c6b-87ec-2a5fb4327678">
+        <dataName>portbusMotoCtl_FstTaskOut</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="79f6a191-23f5-404e-a3ed-7e4f93aacaec">
+        <dataName>portbusMotoCtl_FstTaskOut_u16_ampMaxNrmVltgAmp</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="2bb98121-a62e-4261-b8ec-2937d562e953">
+        <dataName>portbusMotoCtl_FstTaskOut_u16_dcycPhDyc</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="0022c1fe-93b0-4551-a290-499637e94420">
+        <dataName>portbusMotoCtl_FstTaskOut_u16_phiModulActElecAg</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="a273ffde-8503-44cd-96ef-60231010843b">
+        <dataName>portbusMotoCtl_MedTaskIn</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="78beef0a-e94d-436a-b181-f331e355fc9d">
+        <dataName>portbusMotoCtl_MedTaskOut</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="0303d81a-5a33-4c8d-8567-0a940b1adaba">
+        <dataName>portbusMotoCtl_MedTaskOut_s16_iActDaxQaxCurr</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="64e39c8c-b705-4dd6-8312-b94903f1b17e">
+        <dataName>portbusMotoCtl_MedTaskOut_s16_nActElecSpd</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="cfcc1fba-eb50-4d1c-852b-f6415be6c6b6">
+        <dataName>portbusMotoCtl_MedTaskOut_s16_nPredActElecSpd</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="55120a30-ab5b-4cc8-9482-9035ac8ccdf7">
+        <dataName>portbusMotoCtl_MedTaskOut_s16_uModulDaxQaxVltg</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="0d04a0a4-702d-488d-b1ea-72eb314196e0">
+        <dataName>portbusMotoCtl_MedTaskOut_s16_uRefDaxVltg</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="b3d0f396-dd4b-4639-ba2b-c13db4e92dea">
+        <dataName>portbusMotoCtl_MedTaskOut_u16_ampDycAmp</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="2e588bc7-bd70-4d95-af04-94806e1c6011">
+        <dataName>portbusMotoCtl_MedTaskOut_u16_phiActElecAg</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="7356185c-ff38-4417-b126-db3f49543ba3">
+        <dataName>portbusMotoCtl_MedTaskOut_u16_phiDaxQaxVltgAg</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="6c80baa4-a185-4435-b636-7446eb60cdb7">
+        <dataName>portbusMotoCtl_MedTaskOut_u16_phiSenlElecAgSensElecAgDvt</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="c8ba14e2-7368-4231-906f-828e6905b4c7">
+        <dataName>portbusMotoCtl_SlwTaskIn</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="15461f76-f0a7-445b-a9b0-dc9559bb9b9a">
+        <dataName>portbusMotoCtl_SlwTaskOut</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="f60ed016-a075-44ed-857b-72b37d13b36e">
+        <dataName>portbusMotoCtl_SlwTaskOut_enm_stMotoSt</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="d9e2cadf-fd76-478d-abcf-f1a3af5408c4">
+        <dataName>portbusMotoCtl_SlwTaskOut_s16_iRefDaxQaxCurr</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="de714e04-95a8-43fd-861a-8c2f82c3c54a">
+        <dataName>portbusPhCurrGen_SlwTaskIn</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="b4718def-4978-4e36-8b89-29fd2bc5cf97">
+        <dataName>portbusPhCurrGen_SlwTaskOut</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="b6a67d34-7131-4009-827a-c9f6c0393b8e">
+        <dataName>portbusPhCurrGen_SlwTaskOut_enm_stMotoSt</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="46e6d810-8d92-44a0-9686-0c82ee3773ab">
+        <dataName>portbusPhCurrGen_SlwTaskOut_s16_iRefDaxQaxCurr</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="b9d61e95-f3dd-4826-a3b7-9407cfb6dcb1">
+        <dataName>portbusSlowTaskInp</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="85e8c4e0-1713-4b52-9a90-75ace8754314">
+        <dataName>portbusSlowTaskOutp</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="6e8649b6-2b7d-4ebc-a78a-e6092f3dea50">
+        <dataName>portbusSlowTaskOutp_AngSensCalib_Status</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="3b5d1bc2-cbf4-455a-a4cb-3d2e25c292eb">
+        <dataName>portbusSlowTaskOutp_arCalibElecAng</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="a68a9ff7-db83-49f0-a55a-7fb6c063a106">
+        <dataName>portbusSlowTaskOutp_arSensErrMechAng</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="a3e41b45-4146-4194-99bc-f38bd5d7b061">
+        <dataName>portbusSlowTaskOutp_bolCalibSuccFlag</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="f1b47fab-c8c5-4648-b906-f8f8822099fa">
+        <dataName>portbusSlowTaskOutp_bolDrtnFlag</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="2c700b62-f160-4ed6-9850-c9364d3ee5b5">
+        <dataName>portbusSlowTaskOutp_enmMotStas</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="b5ee93ea-86cd-4c3e-9596-6b50ded12db1">
+        <dataName>portbusSlowTaskOutp_iActLineCurr</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="2b087a9f-29b6-4f2d-9273-faba3f7d11a3">
+        <dataName>portbusSlowTaskOutp_iCalibCurr</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="73b930db-0934-4f36-a887-a10f895c0e62">
+        <dataName>portbusSlowTaskOutp_iEstSplyCurr</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="70bbcd46-230f-4f02-8531-a6d65a07fc79">
+        <dataName>portbusSlowTaskOutp_iRefDQCurr</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="0233c55c-c11a-44a8-8be0-456b450f0429">
+        <dataName>portbusSlowTaskOutp_mtrAlgPermFail</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="40c2f5ea-2f28-452f-80b4-a2d1b5e171c9">
+        <dataName>portbusSlowTaskOutp_mtrPermBlk</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="174f7c68-398e-4d01-8eae-f632c3625461">
+        <dataName>portbusSlowTaskOutp_mtrTmprBlk</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="f281f501-101c-4a82-8e90-c774b443d1a2">
+        <dataName>portenmAngPosEvalMode</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="5e7a53d6-529f-4ca5-83e2-e59d2a0033da">
+        <dataName>portenmMotStas</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="afa7d459-8a5d-453d-8b3d-ac745f10033a">
+        <dataName>portgenDutyCyclAmp</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="5ed4f1b0-44e3-49cd-86d6-9a6693da83ee">
+        <dataName>portgenFiltCoef</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="cd5427ae-b8ad-4cc1-b071-ae240de46522">
+        <dataName>portgenMaxNormVoltAmp</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="2cd9d1c6-7b0c-4c8b-9722-241c3730c7c4">
+        <dataName>portgenMotCtrlManMode</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="cca84be9-b12c-48a4-9031-c4c37629a627">
+        <dataName>portgenXYZDutyCycl</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="6cbce8e4-21a8-4382-92a4-eb63e421814d">
+        <dataName>portiActDQCurr</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="ae255262-02e1-4277-8315-792e83430c23">
+        <dataName>portiActDirCurr</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="2937e5f8-66b2-40d1-bcac-566c75545580">
+        <dataName>portiActQdrtCurr</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="b6e4718f-1519-4734-9ad2-0200ffbcf40c">
+        <dataName>portiActXYZCurr</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="37e8f16f-4208-47c8-b9c0-23e8b285a004">
+        <dataName>portiCalibCurr</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="081a5658-0b48-4982-807c-165ad696d40a">
+        <dataName>portiRefDQCurr</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="779be698-ef82-4d36-9b85-989dc0f3610d">
+        <dataName>portlb_genFstStatOutp</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="0d3860c1-3efe-4f13-af7f-a4828f2c157e">
+        <dataName>portlb_genPredElctAng</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="772bd789-c764-49fb-b2e9-54e6fc6ea6bc">
+        <dataName>portlb_genPredFstStatOutp</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="98a09c26-27d5-4044-968c-3e2ab4ab2ea9">
+        <dataName>portnRefElctSpd</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="0eebb59d-205d-403f-9434-80f722c690a6">
+        <dataName>portnRefMechSpd</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="6a367c63-0d1b-47b4-a16a-a16c537dd3d0">
+        <dataName>portvtModtDQVolt</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="2454dea4-f7d3-4162-9ec5-b2b9978dd700">
+        <dataName>portvtSplyVolt</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="4bdfabe2-d4e0-4438-b20d-28140956ddc4">
+        <dataName>portwActElctSpd</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="96d4817f-b114-46c5-98ff-6fc58d0bd4df">
+        <dataName>portwCharFreq</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="f2bde280-5445-4567-a135-82bcac43e509">
+        <dataName>portwPredActElctSpd</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="ef98eac3-c082-4342-80e2-71391efb08ed">
+        <dataName>portwRefElctSpd</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="341003ff-2a08-4b98-ab99-61416a9c1bd2">
+        <dataName>portwStrtUpElctSpd</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <priorityDirection>HighNumberLast</priorityDirection>
+      <unusedTaskIds>1</unusedTaskIds>
+      <defaultEventBehavior type="sltp.mm.core.EventBehavior" uuid="f0ce484d-d088-41ec-9526-06cc5d0b2143"/>
+      <editorState type="sltp.mm.core.EditorState" uuid="10c1d8b1-c72e-4f92-b639-b0f84b45c782">
+        <isSynchronized>true</isSynchronized>
+        <panelState type="sltp.mm.core.EditorPanelState" uuid="c9af91d6-932c-4c96-90ed-375196bfacc0">
+          <showModelHierarchyPane>true</showModelHierarchyPane>
+          <showPropertyInspector>false</showPropertyInspector>
+        </panelState>
+      </editorState>
+      <rootTask type="sltp.mm.core.Task" uuid="e6bfebbb-b417-44c3-9c79-c81a921adb19">
+        <context type="sltp.mm.core.Context" uuid="399ce88e-aa77-4a7d-90c3-c20cbf0b71b8"/>
+        <explicit>false</explicit>
+        <name>Default</name>
+        <priority>-2147483648</priority>
+        <subgraph type="sltp.mm.core.Graph" uuid="25058aec-112f-40da-8adf-43375f4159f2">
+          <tasks type="sltp.mm.core.Task" uuid="666805aa-ce60-4403-936c-00aa53ab90b6">
+            <context type="sltp.mm.core.Context" uuid="399ce88e-aa77-4a7d-90c3-c20cbf0b71b8"/>
+            <explicit>false</explicit>
+            <id>2</id>
+            <isTimed>true</isTimed>
+            <name>D1</name>
+            <priority>40</priority>
+            <rates type="sltp.mm.core.Rate" uuid="3f8d1845-d1fb-45fd-9945-ff22e20dae86">
+              <annotation>D1</annotation>
+              <color>-436207361</color>
+              <identifier>ClassicPeriodicDiscrete0.000130</identifier>
+              <rateIndex>0</rateIndex>
+              <rateSpec type="sltp.mm.core.RateSpec">
+                <period>.000125</period>
+              </rateSpec>
+              <sti>0</sti>
+            </rates>
+            <rates type="sltp.mm.core.Rate" uuid="dca9f1fa-62a8-4482-8472-fe243d2ee6aa">
+              <annotation>D2</annotation>
+              <color>13697279</color>
+              <hasBlocks>true</hasBlocks>
+              <rateIndex>1</rateIndex>
+              <rateSpec type="sltp.mm.core.RateSpec">
+                <period>.01</period>
+              </rateSpec>
+              <sti>1</sti>
+            </rates>
+          </tasks>
+        </subgraph>
+      </rootTask>
+    </sltpContext>
+    <stateWriterToOwnerMap type="ModelRefInfoRepo.StateWriterInfo" uuid="7ed68477-2fd4-4de4-8810-aebe2019d7f7"/>
+    <stoClientDataRegistry type="sto.ClientDataRegistry" uuid="746a2b32-3b8f-40ed-bf1d-1cb1fee4ed12">
+      <dataSets type="sto.ClientClockNamedDataSet" uuid="2df3b997-9c56-48a4-974b-684beeb898f4">
+        <tag>sltpEvents</tag>
+      </dataSets>
+      <dataSets type="sto.ClientTaskHierarchyElementNamedDataSet" uuid="7e7eed0a-16bd-4191-aaab-3e8894f892c7">
+        <tag>sltpTaskGroups</tag>
+      </dataSets>
+      <dataSets type="sto.ClientTaskHierarchyElementNamedDataSet" uuid="0850a721-64d6-479e-aded-7f2a7bd17d4f">
+        <dSet type="ModelRefInfoRepo.SltpTaskData" uuid="29443b45-7e90-41f2-a45e-9ed66f772b77"/>
+        <tSet type="ModelRefInfoRepo.SltpTaskData" uuid="29443b45-7e90-41f2-a45e-9ed66f772b77">
+          <dataName>D1</dataName>
+          <linkedSet type="sto.ClientTaskHierarchyElementNamedDataSet" uuid="0850a721-64d6-479e-aded-7f2a7bd17d4f"/>
+          <id type="sto.TaskHierarchyElementId">
+            <clockId>ASW_PhCurrGen::defaultTimer</clockId>
+            <id>_task0</id>
+          </id>
+        </tSet>
+        <tag>sltpTasks</tag>
+      </dataSets>
+    </stoClientDataRegistry>
+    <varTsUIDMap type="ModelRefInfoRepo.VarTsUIDMap" uuid="36aac026-a93c-410e-9116-5cc142d6f6c9"/>
+  </ModelRefInfoRepo.ModelRefInfoRoot>
+</MF0>
