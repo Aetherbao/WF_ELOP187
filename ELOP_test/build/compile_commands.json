@@ -1,0 +1,140 @@
+[
+{
+  "directory": "E:/01_WORK/25_01_ELOP187/02_TESTPRJ/ELOP_test/build",
+  "command": "D:\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\main.dir\\ASW_par\\motor_control_param.c.obj -c E:\\01_WORK\\25_01_ELOP187\\02_TESTPRJ\\ELOP_test\\ASW_par\\motor_control_param.c",
+  "file": "E:/01_WORK/25_01_ELOP187/02_TESTPRJ/ELOP_test/ASW_par/motor_control_param.c",
+  "output": "CMakeFiles/main.dir/ASW_par/motor_control_param.c.obj"
+},
+{
+  "directory": "E:/01_WORK/25_01_ELOP187/02_TESTPRJ/ELOP_test/build",
+  "command": "D:\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\main.dir\\ASW_par\\motor_param.c.obj -c E:\\01_WORK\\25_01_ELOP187\\02_TESTPRJ\\ELOP_test\\ASW_par\\motor_param.c",
+  "file": "E:/01_WORK/25_01_ELOP187/02_TESTPRJ/ELOP_test/ASW_par/motor_param.c",
+  "output": "CMakeFiles/main.dir/ASW_par/motor_param.c.obj"
+},
+{
+  "directory": "E:/01_WORK/25_01_ELOP187/02_TESTPRJ/ELOP_test/build",
+  "command": "D:\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\main.dir\\ASW_share\\const_params.c.obj -c E:\\01_WORK\\25_01_ELOP187\\02_TESTPRJ\\ELOP_test\\ASW_share\\const_params.c",
+  "file": "E:/01_WORK/25_01_ELOP187/02_TESTPRJ/ELOP_test/ASW_share/const_params.c",
+  "output": "CMakeFiles/main.dir/ASW_share/const_params.c.obj"
+},
+{
+  "directory": "E:/01_WORK/25_01_ELOP187/02_TESTPRJ/ELOP_test/build",
+  "command": "D:\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\main.dir\\ASW_share\\mul_ssu32_hiSR.c.obj -c E:\\01_WORK\\25_01_ELOP187\\02_TESTPRJ\\ELOP_test\\ASW_share\\mul_ssu32_hiSR.c",
+  "file": "E:/01_WORK/25_01_ELOP187/02_TESTPRJ/ELOP_test/ASW_share/mul_ssu32_hiSR.c",
+  "output": "CMakeFiles/main.dir/ASW_share/mul_ssu32_hiSR.c.obj"
+},
+{
+  "directory": "E:/01_WORK/25_01_ELOP187/02_TESTPRJ/ELOP_test/build",
+  "command": "D:\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\main.dir\\ASW_share\\look1_iu8lu32n16ts16Ds32_binlcs.c.obj -c E:\\01_WORK\\25_01_ELOP187\\02_TESTPRJ\\ELOP_test\\ASW_share\\look1_iu8lu32n16ts16Ds32_binlcs.c",
+  "file": "E:/01_WORK/25_01_ELOP187/02_TESTPRJ/ELOP_test/ASW_share/look1_iu8lu32n16ts16Ds32_binlcs.c",
+  "output": "CMakeFiles/main.dir/ASW_share/look1_iu8lu32n16ts16Ds32_binlcs.c.obj"
+},
+{
+  "directory": "E:/01_WORK/25_01_ELOP187/02_TESTPRJ/ELOP_test/build",
+  "command": "D:\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\main.dir\\ASW_share\\mul_wide_su32.c.obj -c E:\\01_WORK\\25_01_ELOP187\\02_TESTPRJ\\ELOP_test\\ASW_share\\mul_wide_su32.c",
+  "file": "E:/01_WORK/25_01_ELOP187/02_TESTPRJ/ELOP_test/ASW_share/mul_wide_su32.c",
+  "output": "CMakeFiles/main.dir/ASW_share/mul_wide_su32.c.obj"
+},
+{
+  "directory": "E:/01_WORK/25_01_ELOP187/02_TESTPRJ/ELOP_test/build",
+  "command": "D:\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\main.dir\\ASW_share\\look1_iu16lu32n16ts16D_2s4GBl96.c.obj -c E:\\01_WORK\\25_01_ELOP187\\02_TESTPRJ\\ELOP_test\\ASW_share\\look1_iu16lu32n16ts16D_2s4GBl96.c",
+  "file": "E:/01_WORK/25_01_ELOP187/02_TESTPRJ/ELOP_test/ASW_share/look1_iu16lu32n16ts16D_2s4GBl96.c",
+  "output": "CMakeFiles/main.dir/ASW_share/look1_iu16lu32n16ts16D_2s4GBl96.c.obj"
+},
+{
+  "directory": "E:/01_WORK/25_01_ELOP187/02_TESTPRJ/ELOP_test/build",
+  "command": "D:\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\main.dir\\ASW_share\\mul_ssu32_loSR.c.obj -c E:\\01_WORK\\25_01_ELOP187\\02_TESTPRJ\\ELOP_test\\ASW_share\\mul_ssu32_loSR.c",
+  "file": "E:/01_WORK/25_01_ELOP187/02_TESTPRJ/ELOP_test/ASW_share/mul_ssu32_loSR.c",
+  "output": "CMakeFiles/main.dir/ASW_share/mul_ssu32_loSR.c.obj"
+},
+{
+  "directory": "E:/01_WORK/25_01_ELOP187/02_TESTPRJ/ELOP_test/build",
+  "command": "D:\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\main.dir\\ASW_share\\div_nde_s32_floor.c.obj -c E:\\01_WORK\\25_01_ELOP187\\02_TESTPRJ\\ELOP_test\\ASW_share\\div_nde_s32_floor.c",
+  "file": "E:/01_WORK/25_01_ELOP187/02_TESTPRJ/ELOP_test/ASW_share/div_nde_s32_floor.c",
+  "output": "CMakeFiles/main.dir/ASW_share/div_nde_s32_floor.c.obj"
+},
+{
+  "directory": "E:/01_WORK/25_01_ELOP187/02_TESTPRJ/ELOP_test/build",
+  "command": "D:\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\main.dir\\ASW_share\\look2_is16lu32n16tu16_binlcse.c.obj -c E:\\01_WORK\\25_01_ELOP187\\02_TESTPRJ\\ELOP_test\\ASW_share\\look2_is16lu32n16tu16_binlcse.c",
+  "file": "E:/01_WORK/25_01_ELOP187/02_TESTPRJ/ELOP_test/ASW_share/look2_is16lu32n16tu16_binlcse.c",
+  "output": "CMakeFiles/main.dir/ASW_share/look2_is16lu32n16tu16_binlcse.c.obj"
+},
+{
+  "directory": "E:/01_WORK/25_01_ELOP187/02_TESTPRJ/ELOP_test/build",
+  "command": "D:\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\main.dir\\ASW_share\\look1_is16lu32n32ys16n_eAC3J1UD.c.obj -c E:\\01_WORK\\25_01_ELOP187\\02_TESTPRJ\\ELOP_test\\ASW_share\\look1_is16lu32n32ys16n_eAC3J1UD.c",
+  "file": "E:/01_WORK/25_01_ELOP187/02_TESTPRJ/ELOP_test/ASW_share/look1_is16lu32n32ys16n_eAC3J1UD.c",
+  "output": "CMakeFiles/main.dir/ASW_share/look1_is16lu32n32ys16n_eAC3J1UD.c.obj"
+},
+{
+  "directory": "E:/01_WORK/25_01_ELOP187/02_TESTPRJ/ELOP_test/build",
+  "command": "D:\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\main.dir\\ASW_share\\look2_iu8s16lu32n16tu16_binlcse.c.obj -c E:\\01_WORK\\25_01_ELOP187\\02_TESTPRJ\\ELOP_test\\ASW_share\\look2_iu8s16lu32n16tu16_binlcse.c",
+  "file": "E:/01_WORK/25_01_ELOP187/02_TESTPRJ/ELOP_test/ASW_share/look2_iu8s16lu32n16tu16_binlcse.c",
+  "output": "CMakeFiles/main.dir/ASW_share/look2_iu8s16lu32n16tu16_binlcse.c.obj"
+},
+{
+  "directory": "E:/01_WORK/25_01_ELOP187/02_TESTPRJ/ELOP_test/build",
+  "command": "D:\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\main.dir\\ASW_share\\look1_iu16lu32n16tu8_binlcse.c.obj -c E:\\01_WORK\\25_01_ELOP187\\02_TESTPRJ\\ELOP_test\\ASW_share\\look1_iu16lu32n16tu8_binlcse.c",
+  "file": "E:/01_WORK/25_01_ELOP187/02_TESTPRJ/ELOP_test/ASW_share/look1_iu16lu32n16tu8_binlcse.c",
+  "output": "CMakeFiles/main.dir/ASW_share/look1_iu16lu32n16tu8_binlcse.c.obj"
+},
+{
+  "directory": "E:/01_WORK/25_01_ELOP187/02_TESTPRJ/ELOP_test/build",
+  "command": "D:\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\main.dir\\ASW_AST\\ASW_AST.c.obj -c E:\\01_WORK\\25_01_ELOP187\\02_TESTPRJ\\ELOP_test\\ASW_AST\\ASW_AST.c",
+  "file": "E:/01_WORK/25_01_ELOP187/02_TESTPRJ/ELOP_test/ASW_AST/ASW_AST.c",
+  "output": "CMakeFiles/main.dir/ASW_AST/ASW_AST.c.obj"
+},
+{
+  "directory": "E:/01_WORK/25_01_ELOP187/02_TESTPRJ/ELOP_test/build",
+  "command": "D:\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\main.dir\\ASW_DcycGen\\ASW_DcycGen.c.obj -c E:\\01_WORK\\25_01_ELOP187\\02_TESTPRJ\\ELOP_test\\ASW_DcycGen\\ASW_DcycGen.c",
+  "file": "E:/01_WORK/25_01_ELOP187/02_TESTPRJ/ELOP_test/ASW_DcycGen/ASW_DcycGen.c",
+  "output": "CMakeFiles/main.dir/ASW_DcycGen/ASW_DcycGen.c.obj"
+},
+{
+  "directory": "E:/01_WORK/25_01_ELOP187/02_TESTPRJ/ELOP_test/build",
+  "command": "D:\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\main.dir\\ASW_OBD\\ASW_OBD.c.obj -c E:\\01_WORK\\25_01_ELOP187\\02_TESTPRJ\\ELOP_test\\ASW_OBD\\ASW_OBD.c",
+  "file": "E:/01_WORK/25_01_ELOP187/02_TESTPRJ/ELOP_test/ASW_OBD/ASW_OBD.c",
+  "output": "CMakeFiles/main.dir/ASW_OBD/ASW_OBD.c.obj"
+},
+{
+  "directory": "E:/01_WORK/25_01_ELOP187/02_TESTPRJ/ELOP_test/build",
+  "command": "D:\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\main.dir\\ASW_PhCurrGen\\ASW_PhCurrGen.c.obj -c E:\\01_WORK\\25_01_ELOP187\\02_TESTPRJ\\ELOP_test\\ASW_PhCurrGen\\ASW_PhCurrGen.c",
+  "file": "E:/01_WORK/25_01_ELOP187/02_TESTPRJ/ELOP_test/ASW_PhCurrGen/ASW_PhCurrGen.c",
+  "output": "CMakeFiles/main.dir/ASW_PhCurrGen/ASW_PhCurrGen.c.obj"
+},
+{
+  "directory": "E:/01_WORK/25_01_ELOP187/02_TESTPRJ/ELOP_test/build",
+  "command": "D:\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\main.dir\\ASW_PhVltgGen\\ASW_PhVltgGen.c.obj -c E:\\01_WORK\\25_01_ELOP187\\02_TESTPRJ\\ELOP_test\\ASW_PhVltgGen\\ASW_PhVltgGen.c",
+  "file": "E:/01_WORK/25_01_ELOP187/02_TESTPRJ/ELOP_test/ASW_PhVltgGen/ASW_PhVltgGen.c",
+  "output": "CMakeFiles/main.dir/ASW_PhVltgGen/ASW_PhVltgGen.c.obj"
+},
+{
+  "directory": "E:/01_WORK/25_01_ELOP187/02_TESTPRJ/ELOP_test/build",
+  "command": "D:\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\main.dir\\ASW_SigIn\\ASW_SigIn.c.obj -c E:\\01_WORK\\25_01_ELOP187\\02_TESTPRJ\\ELOP_test\\ASW_SigIn\\ASW_SigIn.c",
+  "file": "E:/01_WORK/25_01_ELOP187/02_TESTPRJ/ELOP_test/ASW_SigIn/ASW_SigIn.c",
+  "output": "CMakeFiles/main.dir/ASW_SigIn/ASW_SigIn.c.obj"
+},
+{
+  "directory": "E:/01_WORK/25_01_ELOP187/02_TESTPRJ/ELOP_test/build",
+  "command": "D:\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\main.dir\\BSW\\PWM.c.obj -c E:\\01_WORK\\25_01_ELOP187\\02_TESTPRJ\\ELOP_test\\BSW\\PWM.c",
+  "file": "E:/01_WORK/25_01_ELOP187/02_TESTPRJ/ELOP_test/BSW/PWM.c",
+  "output": "CMakeFiles/main.dir/BSW/PWM.c.obj"
+},
+{
+  "directory": "E:/01_WORK/25_01_ELOP187/02_TESTPRJ/ELOP_test/build",
+  "command": "D:\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\main.dir\\BSW\\ADC.c.obj -c E:\\01_WORK\\25_01_ELOP187\\02_TESTPRJ\\ELOP_test\\BSW\\ADC.c",
+  "file": "E:/01_WORK/25_01_ELOP187/02_TESTPRJ/ELOP_test/BSW/ADC.c",
+  "output": "CMakeFiles/main.dir/BSW/ADC.c.obj"
+},
+{
+  "directory": "E:/01_WORK/25_01_ELOP187/02_TESTPRJ/ELOP_test/build",
+  "command": "D:\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\main.dir\\FOC.c.obj -c E:\\01_WORK\\25_01_ELOP187\\02_TESTPRJ\\ELOP_test\\FOC.c",
+  "file": "E:/01_WORK/25_01_ELOP187/02_TESTPRJ/ELOP_test/FOC.c",
+  "output": "CMakeFiles/main.dir/FOC.c.obj"
+},
+{
+  "directory": "E:/01_WORK/25_01_ELOP187/02_TESTPRJ/ELOP_test/build",
+  "command": "D:\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\main.dir\\main.c.obj -c E:\\01_WORK\\25_01_ELOP187\\02_TESTPRJ\\ELOP_test\\main.c",
+  "file": "E:/01_WORK/25_01_ELOP187/02_TESTPRJ/ELOP_test/main.c",
+  "output": "CMakeFiles/main.dir/main.c.obj"
+}
+]
