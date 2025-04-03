@@ -1,0 +1,1 @@
+var reportPages = [["摘要","ASW_PhCurrGen_survey.html"],["子系统报告","ASW_PhCurrGen_subsystems.html"],["代码接口报告","ASW_PhCurrGen_interface.html"],["可追溯性报告","ASW_PhCurrGen_trace.html"],["静态代码度量报告","ASW_PhCurrGen_metrics.html"],["代码替换报告","ASW_PhCurrGen_replacements.html"],["代码生成器假设","ASW_PhCurrGen_coderassumptions.html"]];

@@ -1,0 +1,659 @@
+/*
+ * File: CalibRam.c
+ *
+ * Code generated for Simulink model 'foc'.
+ *
+ * Model version                  : 1.9384
+ * Simulink Coder version         : 9.2 (R2019b) 18-Jul-2019
+ * C/C++ source code generated on : Wed Aug 30 09:36:39 2023
+ *
+ * Target selection: ert.tlc
+ * Embedded hardware selection: ARM Compatible->ARM Cortex
+ * Code generation objectives:
+ *    1. ROM efficiency
+ *    2. MISRA C:2012 guidelines
+ * Validation result: Not run
+ */
+
+#include "rtwtypes.h"
+#include "zero_crossing_types.h"
+#include "foc_types.h"
+
+/* Exported data definition */
+
+//#pragma section farrom ".calib"
+boolean_T ADC_enAutoCurrOfs_C = 1;     /* Referenced by: '<S311>/Constant4' */
+
+/* 使能自动电流offset计算 */
+boolean_T ADC_enPhSeqSwt_C = 0;        /* Referenced by:
+                                        * '<S307>/Constant4'
+                                        * '<S320>/Constant4'
+                                        */
+
+/* 电机正反转 */
+uint32_T ADC_facCurrOfsHi_C = 600U;    /* Referenced by:
+                                        * '<S321>/Constant1'
+                                        * '<S321>/Constant4'
+                                        */
+
+/* 电流offset自动标定上限 */
+uint32_T ADC_facCurrOfsLo_C = 300U;    /* Referenced by:
+                                        * '<S321>/Constant3'
+                                        * '<S321>/Constant5'
+                                        */
+
+/* 电流offset自动标定下限 */
+int16_T ADC_facCurrPhUOfs_C = 419;     /* Referenced by:
+                                        * '<S309>/ADC_facCurrPhUAutoOfs'
+                                        * '<S311>/Constant3'
+                                        */
+
+/* U相电流offset初始值 */
+int16_T ADC_facCurrPhVOfs_C = 419;     /* Referenced by:
+                                        * '<S309>/ADC_facCurrPhVAutoOfs'
+                                        * '<S311>/Constant2'
+                                        */
+
+/* V相电流offset初始值 */
+uint16_T ADC_facDCBusVltgLPFlt_C = 1500U;
+                           /* Referenced by: '<S385>/ADC_facDCBusVltgLPFlt_C' */
+
+/* 母线电压滤波系数 */
+uint16_T ADC_facDCBusVltgSens_C = 4U;
+                                /* Referenced by: '<S385>/ADC_facDCBusSens_C' */
+uint16_T ADC_facKl30Sens_C = 441U;     /* Referenced by: '<S388>/Constant' */
+
+/* KL30传感器系数 */
+uint16_T ADC_facKl30VltgLPFlt_C = 102U;/* Referenced by: '<S388>/Constant1' */
+
+/* KL30电压低通滤波系数 */
+int16_T ADC_facPhCurrSens_C = 2131;
+                               /* Referenced by: '<S311>/ADC_facPhCurrSens_C' */
+uint8_T ADC_facWinSizeMAF_C = 6U;      /* Referenced by: '<S321>/Constant' */
+
+/* MAF滤波器窗大小 */
+boolean_T ADC_flgHWFaltMan_C = 0;
+                              /* Referenced by: '<S328>/ADC_enDCBusVltgMan_C' */
+
+/* 硬件故障手动设定值 */
+uint32_T ADC_iPhIVRawMAF_C = 410U;     /* Referenced by: '<S321>/Constant2' */
+
+/* 电流自动标定初始值 */
+uint16_T ADC_tIGBTPhyPhMan_C = 260U;
+                              /* Referenced by: '<S344>/ADC_enDCBusVltgMan_C' */
+
+/* IGBT温度手动设定值 */
+uint16_T ADC_tIGBT_ADSetPnt_X[106] = { 170U, 200U, 230U, 260U, 290U, 320U, 350U,
+  380U, 410U, 440U, 470U, 500U, 530U, 560U, 590U, 620U, 650U, 680U, 710U, 740U,
+  770U, 800U, 830U, 860U, 890U, 920U, 950U, 980U, 1010U, 1040U, 1070U, 1100U,
+  1130U, 1160U, 1190U, 1220U, 1250U, 1280U, 1310U, 1340U, 1370U, 1400U, 1430U,
+  1460U, 1490U, 1520U, 1550U, 1580U, 1610U, 1640U, 1670U, 1700U, 1730U, 1760U,
+  1790U, 1820U, 1850U, 1880U, 1910U, 1940U, 1970U, 2000U, 2030U, 2060U, 2090U,
+  2120U, 2150U, 2180U, 2210U, 2240U, 2270U, 2300U, 2330U, 2360U, 2390U, 2420U,
+  2450U, 2480U, 2510U, 2540U, 2570U, 2600U, 2630U, 2660U, 2690U, 2720U, 2750U,
+  2780U, 2810U, 2840U, 2870U, 2900U, 2930U, 2960U, 2990U, 3020U, 3050U, 3080U,
+  3110U, 3140U, 3170U, 3200U, 3230U, 3260U, 3290U, 3320U } ;/* Referenced by: '<S344>/IGBTTempLut' */
+
+/* IGBT温度传感器曲线X轴 */
+uint16_T ADC_tIGBT_CUR[106] = { 160U, 174U, 185U, 196U, 205U, 214U, 222U, 230U,
+  237U, 244U, 250U, 256U, 262U, 268U, 273U, 279U, 284U, 289U, 294U, 298U, 303U,
+  307U, 312U, 316U, 320U, 324U, 328U, 332U, 336U, 340U, 344U, 348U, 351U, 355U,
+  359U, 362U, 366U, 369U, 373U, 376U, 380U, 383U, 387U, 390U, 394U, 397U, 400U,
+  404U, 407U, 410U, 414U, 417U, 420U, 423U, 427U, 430U, 433U, 437U, 440U, 443U,
+  447U, 450U, 453U, 457U, 460U, 464U, 467U, 470U, 474U, 477U, 481U, 484U, 488U,
+  492U, 495U, 499U, 503U, 506U, 510U, 514U, 518U, 522U, 526U, 530U, 534U, 538U,
+  542U, 546U, 551U, 555U, 560U, 564U, 569U, 574U, 579U, 584U, 589U, 594U, 599U,
+  605U, 611U, 617U, 623U, 629U, 635U, 640U } ;/* Referenced by: '<S344>/IGBTTempLut' */
+
+/* IGBT温度传感器曲线Y轴 */
+int16_T ADC_tPCBPhyMan_C = 260;
+                              /* Referenced by: '<S346>/ADC_enDCBusVltgMan_C' */
+
+/* PCB温度手动设定值 */
+uint16_T ADC_tPCB_ADSetPnt_X[42] = { 242U, 262U, 283U, 305U, 330U, 355U, 383U,
+  411U, 442U, 473U, 505U, 538U, 572U, 606U, 640U, 674U, 707U, 739U, 769U, 798U,
+  826U, 851U, 874U, 895U, 914U, 931U, 946U, 959U, 970U, 980U, 988U, 995U, 1001U,
+  1005U, 1009U, 1012U, 1015U, 1017U, 1019U, 1020U, 1021U, 1022U } ;/* Referenced by: '<S345>/PCBTempLut' */
+
+/* PCB板温度传感器曲线X轴 */
+int16_T ADC_tPCB_CUR[42] = { 760, 740, 720, 700, 680, 660, 640, 620, 600, 580,
+  560, 540, 520, 500, 480, 460, 440, 420, 400, 380, 360, 340, 320, 300, 280, 260,
+  240, 220, 200, 180, 160, 140, 120, 100, 80, 60, 40, 20, 0, -20, -40, -60 } ;/* Referenced by: '<S345>/PCBTempLut' */
+
+/* PCB板温度传感器曲线Y轴 */
+int16_T ADC_uDCBusMan_C = 12288;
+                              /* Referenced by: '<S386>/ADC_enDCBusVltgMan_C' */
+
+/* 最大相电压 */
+int16_T ADC_uKl30Man_C = 12288;
+                              /* Referenced by: '<S389>/ADC_enDCBusVltgMan_C' */
+
+/* KL30电压手动设定值 */
+uint8_T CAN_ctCANHeartMan_C = 1U;      /* Referenced by: '<S377>/Constant' */
+
+/* CAN心跳故障手动设定，0为持续输出0；1为循环累加计数 */
+boolean_T CAN_flgCANLosErr_C = 0;
+                              /* Referenced by: '<S343>/ADC_enDCBusVltgMan_C' */
+
+/* CAN通讯错误标志位手动设定值 */
+boolean_T Clb_Save_C = 0;              /* Referenced by: '<S7>/Constant' */
+
+/* 保存标定量到Flash */
+uint8_T DataVersionNumber_C[25] = { 77U, 85U, 72U, 49U, 50U, 72U, 87U, 48U, 50U,
+  83U, 80U, 48U, 48U, 49U, 56U, 48U, 50U, 95U, 66U, 48U, 50U, 48U, 48U, 48U, 48U
+} ;                                    /* Referenced by: '<S7>/Constant1' */
+
+/* 数据版本号 */
+uint8_T FOC_NumSectorHand_C = 1U;      /* Referenced by: '<S44>/Constant8' */
+
+/* 手动扇区设置 */
+uint8_T FOC_PhiSdlCnt = 3U;            /* Referenced by: '<S34>/Constant2' */
+
+/* 位置插值计数 */
+boolean_T FOC_enAgCompBaseSpeed_C = 0; /* Referenced by: '<S16>/Constant2' */
+
+/* 速度采样延迟补偿使能 */
+boolean_T FOC_enNumSectorHand_C = 0;   /* Referenced by: '<S44>/Constant' */
+
+/* 手动给定扇区使能开关 */
+boolean_T FOC_enSngShtCurrADC_C = 1;   /* Referenced by:
+                                        * '<S306>/Constant'
+                                        * '<S306>/Constant1'
+                                        */
+uint8_T FOC_enSwtPhiMod = 0U;          /* Referenced by: '<S16>/Constant1' */
+
+/* 1为500us插值，0为实时 */
+boolean_T FOC_enUdqMan_C = 0;          /* Referenced by:
+                                        * '<S18>/Constant1'
+                                        * '<S18>/Constant4'
+                                        */
+uint16_T FOC_facDQCurrLPFlt_C = 123U;  /* Referenced by:
+                                        * '<S17>/FOC_facDQCurrLPFlt_C1'
+                                        * '<S17>/FOC_facDQCurrLPFlt_C2'
+                                        */
+
+/* dq轴电流低通滤波系数 */
+uint16_T FOC_facSpdElecLPFlt_C = 102U;
+                              /* Referenced by: '<S79>/FOC_facSpdElecLPFlt_C' */
+
+/* 电机电速度低通滤波因数 */
+int16_T FOC_phiPosSensIV_C = -18083;        /* Referenced by:
+                                        * '<S66>/Constant3'
+                                        * '<S67>/Constant3'
+                                        */
+int16_T FOC_tiSampleMin_C = 190;       /* Referenced by:
+                                        * '<S45>/Constant6'
+                                        * '<S45>/Constant9'
+                                        * '<S46>/Constant6'
+                                        * '<S46>/Constant9'
+                                        * '<S47>/Constant6'
+                                        * '<S47>/Constant9'
+                                        * '<S48>/Constant6'
+                                        * '<S48>/Constant9'
+                                        * '<S49>/Constant6'
+                                        * '<S49>/Constant9'
+                                        * '<S50>/Constant6'
+                                        * '<S50>/Constant9'
+                                        * '<S52>/Constant'
+                                        * '<S53>/Constant'
+                                        * '<S54>/Constant'
+                                        * '<S55>/Constant'
+                                        * '<S56>/Constant'
+                                        * '<S57>/Constant'
+                                        * '<S58>/Constant'
+                                        * '<S59>/Constant'
+                                        * '<S60>/Constant'
+                                        * '<S61>/Constant'
+                                        * '<S62>/Constant'
+                                        * '<S63>/Constant'
+                                        */
+
+/* 最小采样窗口 */
+int16_T FOC_uDaxMan_C = 0;             /* Referenced by: '<S18>/Constant2' */
+int16_T FOC_uQaxMan_C = 0;             /* Referenced by: '<S18>/Constant3' */
+uint16_T MC_ctCurrAutoOfs_C = 50U;     /* Referenced by: '<S127>/Constant5' */
+
+/* 电流offset自动标定时间（计次） */
+uint16_T MC_ctFrwhl_C = 1500U;          /* Referenced by: '<S127>/Constant4' */
+
+/* 电机停止运行等待时间（计次） */
+uint16_T MC_ctInitWait_C = 500U;        /* Referenced by: '<S127>/Constant6' */
+
+/* 初始化等待时间 */
+uint16_T MC_ctRtrAlgn_C = 1200U;        /* Referenced by: '<S127>/Constant1' */
+
+/* 定位阶段延时计次 */
+boolean_T MC_enOpnLp_C = 1;            /* Referenced by: '<S127>/Constant2' */
+
+/* 速度开环使能 */
+boolean_T MC_enSensLsCtl_C = 0;        /* Referenced by:
+                                        * '<S79>/FOC_facSpdElecLPFlt_C2'
+                                        * '<S39>/Constant2'
+                                        * '<S127>/Constant7'
+                                        * '<S134>/Constant1'
+                                        */
+
+/* 使能无感 */
+boolean_T MC_enStrtTagtCurrRmp_C = 1;  /* Referenced by: '<S114>/Constant' */
+boolean_T MC_enUnLck_C = 1;            /* Referenced by: '<S127>/Constant3' */
+
+/* 转子对齐完成使能 */
+int16_T MC_facDCBusCurrLPFlt_C = 102;  /* Referenced by: '<S73>/Constant1' */
+
+/* 母线电流滤波系数 */
+uint16_T MC_facModul_C = 973U;        /* Referenced by: '<S81>/MC_facModul_C' */
+
+/* 调制比（基于SVPWM） */
+int16_T MC_facPWMAgComp_C = 1024;      /* Referenced by: '<S94>/Constant2' */
+int16_T MC_iDCBusLim_C = 102;          /* Referenced by: '<S73>/Constant' */
+int16_T MC_iDaxTagtPsngPU_C = 0;       /* Referenced by: '<S76>/Constant1' */
+
+/* 定位阶段d轴电流设定值 */
+int16_T MC_iQaxCldStrtTagtPU_C = 4000;/* Referenced by: '<S76>/Constant4' */
+
+/* 冷启动q轴电流目标值 */
+int16_T MC_iQaxStrtTagtPU_C = 4000;   /* Referenced by:
+                                        * '<S76>/Constant3'
+                                        * '<S134>/Constant'
+                                        */
+
+/* 启动阶段q轴目标电流 */
+int16_T MC_iSpdClsLpPIDLoLimPU_C = -30938;/* Referenced by: '<S74>/Constant1' */
+
+/* 速度闭环输出电流下限限值 */
+int16_T MC_iSpdClsLpPIDUpLimPU_C = 30938;/* Referenced by: '<S74>/Constant' */
+
+/* 速度闭环输出电流上限限值 */
+int16_T MC_iTagtLoLimPU_C = -8192;     /* Referenced by: '<S76>/Constant2' */
+
+/* 参考电流下限值 */
+int16_T MC_iTagtUpLimPU_C = 21299;     /* Referenced by:
+                                        * '<S76>/Constant'
+                                        * '<S286>/Constant1'
+                                        * '<S287>/Constant4'
+                                        * '<S288>/Constant1'
+                                        * '<S289>/Constant1'
+                                        * '<S291>/Constant1'
+                                        */
+
+/* 参考电流上限值 */
+int16_T MC_nEndOpnLpElec_C = 2000;     /* Referenced by: '<S75>/Const2' */
+
+/* 电机开环运行结束电速度 */
+int16_T MC_nMaxElec_C = 26500;         /* Referenced by:
+                                        * '<S102>/Constant'
+                                        * '<S138>/Constant3'
+                                        */
+
+/* 电机最大电转速 */
+int16_T MC_nMaxMech_C = 5000;          /* Referenced by:
+                                        * '<S156>/Constant3'
+                                        * '<S128>/Constant3'
+                                        * '<S287>/Constant2'
+                                        * '<S291>/Constant'
+                                        */
+
+/* 电机最大机械转速 */
+int16_T MC_nMinElecFrwhl_C = 2000;     /* Referenced by: '<S127>/Constant' */
+
+/* 进入FREEWHEEL状态的临界电转速 */
+int16_T MC_nMinElec_C = -26500;        /* Referenced by:
+                                        * '<S102>/Constant2'
+                                        * '<S138>/Constant2'
+                                        */
+
+/* 电机负向最大电转速 */
+int16_T MC_nMinMech_C = -5000;             /* Referenced by: '<S128>/Constant4' */
+
+/* 电机最小机械转速 */
+int16_T MC_rClsLpSpdRmpDec_C = 6;     /* Referenced by: '<S138>/Constant4' */
+
+/* 速度闭环减速过程斜坡速率 */
+int16_T MC_rClsLpSpdRmpInc_C = 6;     /* Referenced by: '<S138>/Constant1' */
+
+/* 速度闭环加速过程斜坡速率 */
+int16_T MC_rCurrStrtPU_C = 66;       /* Referenced by: '<S118>/Constant' */
+
+/* 启动电流斜率 */
+int16_T MC_rOpnLpSpdRmp_C = 6;        /* Referenced by: '<S102>/Constant1' */
+
+/* 速度开环斜坡速率 */
+uint16_T MC_tStrtCld_C = 180U;         /* Referenced by: '<S76>/Constant5' */
+
+/* 冷启动温度阈值 */
+uint8_T OBD_ctCanLosHeartDebDef_C = 5U;/* Referenced by: '<S177>/Constant6' */
+
+/* Can信号心跳丢失消抖确认次数阈值 */
+uint8_T OBD_ctComLosDebDef_C = 5U;     /* Referenced by: '<S182>/Constant6' */
+
+/* Can信号丢失消抖确认次数阈值 */
+uint8_T OBD_ctComLosDebOK_C = 5U;      /* Referenced by: '<S182>/Constant2' */
+
+/* Can信号丢失消抖修复次数阈值 */
+uint8_T OBD_ctDCBusHiLvl1DebDef_C = 5U;/* Referenced by: '<S251>/Constant4' */
+
+/* 电机母线电压消抖确认次数阈值 */
+uint8_T OBD_ctDCBusHiLvl1DebOK_C = 5U; /* Referenced by: '<S251>/Constant5' */
+
+/* 电机母线电压消抖修复次数阈值 */
+uint8_T OBD_ctDCBusHiLvl2DebDef_C = 5U;/* Referenced by: '<S252>/Constant6' */
+
+/* 电机母线电压消抖确认次数阈值 */
+uint8_T OBD_ctDCBusHiLvl2DebOK_C = 5U; /* Referenced by: '<S252>/Constant7' */
+
+/* 电机母线电压消抖修复次数阈值 */
+uint8_T OBD_ctDCBusHiLvl3DebDef_C = 5U;/* Referenced by: '<S253>/Constant6' */
+
+/* 电机母线电压消抖确认次数阈值 */
+uint8_T OBD_ctDCBusHiLvl3DebOK_C = 5U; /* Referenced by: '<S253>/Constant7' */
+
+/* 电机母线电压消抖修复次数阈值 */
+uint8_T OBD_ctDCBusLoLvl1DebDef_C = 0U;
+                             /* Referenced by: '<S266>/OBD_ctDCBusLoDebDef_C' */
+
+/* 电机母线欠压一级消抖确认次数阈值 */
+uint8_T OBD_ctDCBusLoLvl1DebOK_C = 50U;
+                              /* Referenced by: '<S266>/OBD_ctDCBusLoDebOK_C' */
+
+/* 电机母线欠压1级消抖修复次数阈值 */
+uint8_T OBD_ctDCBusLoLvl2DebDef_C = 5U;
+                            /* Referenced by: '<S267>/OBD_ctDCBusLoDebDef_C1' */
+
+/* 电机母线欠压二级消抖确认次数阈值 */
+uint8_T OBD_ctDCBusLoLvl2DebOK_C = 5U;
+                             /* Referenced by: '<S267>/OBD_ctDCBusLoDebOK_C1' */
+
+/* 电机母线欠压二级消抖修复次数阈值 */
+uint8_T OBD_ctDCBusLoLvl3DebDef_C = 5U;
+                            /* Referenced by: '<S268>/OBD_ctDCBusLoDebDef_C2' */
+
+/* 电机母线欠压三级消抖确认次数阈值 */
+uint8_T OBD_ctDCBusLoLvl3DebOK_C = 5U;
+                             /* Referenced by: '<S268>/OBD_ctDCBusLoDebOK_C2' */
+
+/* 电机母线欠压三级消抖修复次数阈值 */
+uint8_T OBD_ctDCBusLoLvl4DebDef_C = 5U;
+                            /* Referenced by: '<S269>/OBD_ctDCBusLoDebDef_C3' */
+
+/* 电机母线欠压四级消抖确认次数阈值 */
+uint8_T OBD_ctDCBusLoLvl4DebOK_C = 5U;
+                             /* Referenced by: '<S269>/OBD_ctDCBusLoDebOK_C3' */
+
+/* 电机母线欠压四级消抖修复次数阈值 */
+uint8_T OBD_ctFaltClr_C = 120U;    /* Referenced by: '<S158>/OBD_ctFaltClr_C' */
+
+/* 故障清除使能计次 */
+uint8_T OBD_ctGDUnderVolDebDef_C = 50U;
+                              /* Referenced by: '<S188>/OBD_ctIGBTHiDebDef_C' */
+
+/* 低压侧欠压消抖确诊次数，单位：次 */
+uint8_T OBD_ctGDUnderVolDebOK_C = 50U;
+                               /* Referenced by: '<S188>/OBD_ctIGBTHiDebOK_C' */
+
+/* 低压侧欠压故障解除确认次数 */
+uint8_T OBD_ctIGBTHiLvl1DebDef_C = 5U;
+                              /* Referenced by: '<S192>/OBD_ctIGBTHiDebDef_C' */
+
+/* 电机IPM温度消抖确认次数阈值 */
+uint8_T OBD_ctIGBTHiLvl1DebOK_C = 5U;
+                               /* Referenced by: '<S192>/OBD_ctIGBTHiDebOK_C' */
+
+/* 电机IPM温度消抖修复次数阈值 */
+uint8_T OBD_ctIGBTHiLvl2DebDef_C = 5U;
+                             /* Referenced by: '<S193>/OBD_ctIGBTHiDebDef_C1' */
+
+/* 电机IPM温度消抖确认次数阈值 */
+uint8_T OBD_ctIGBTHiLvl2DebOK_C = 5U;
+                              /* Referenced by: '<S193>/OBD_ctIGBTHiDebOK_C1' */
+
+/* 电机IPM温度消抖修复次数阈值 */
+uint8_T OBD_ctIGBTHiLvl3DebDef_C = 5U;
+                              /* Referenced by: '<S194>/OBD_ctIGBTHiDebDef_C' */
+
+/* 电机IPM温度消抖确认次数阈值 */
+uint8_T OBD_ctIGBTHiLvl3DebOK_C = 5U;
+                               /* Referenced by: '<S194>/OBD_ctIGBTHiDebOK_C' */
+
+/* 电机IPM温度消抖修复次数阈值 */
+uint8_T OBD_ctLifeCycleCnt_C = 100U;   /* Referenced by: '<S159>/Constant1' */
+
+/* 心跳故障检测周期，单位：次 */
+uint8_T OBD_ctMotoHiLvl1DebOK_C = 5U;  /* Referenced by: '<S208>/Constant3' */
+
+/* 电机过温1消抖修复次数阈值 */
+uint8_T OBD_ctMotoHiLvl1DefDeb_C = 5U; /* Referenced by: '<S208>/Constant6' */
+
+/* 电机过温1消抖确认次数阈值 */
+uint8_T OBD_ctMotoHiLvl2DebOK_C = 5U;  /* Referenced by: '<S209>/Constant3' */
+
+/* 电机过温2消抖修复次数阈值 */
+uint8_T OBD_ctMotoHiLvl2DefDeb_C = 5U; /* Referenced by: '<S209>/Constant6' */
+
+/* 电机过温2消抖确认次数阈值 */
+uint8_T OBD_ctMotoHiLvl3DebOK_C = 5U;  /* Referenced by: '<S210>/Constant3' */
+
+/* 电机过温3消抖修复次数阈值 */
+uint8_T OBD_ctMotoHiLvl3DefDeb_C = 5U; /* Referenced by: '<S210>/Constant6' */
+
+/* 电机过温3消抖确认次数阈值 */
+uint8_T OBD_ctOvrCurrDebDef_C = 5U;    /* Referenced by:
+                                        * '<S234>/Constant4'
+                                        * '<S235>/Constant6'
+                                        * '<S236>/Constant6'
+                                        */
+
+/* 电机过流消抖确认次数阈值 */
+uint8_T OBD_ctPCBHiLvl1DebDef_C = 5U;  /* Referenced by: '<S218>/Constant6' */
+
+/* PCB过温2消抖确认次数阈值 */
+uint8_T OBD_ctPCBHiLvl1DebOK_C = 5U;   /* Referenced by: '<S218>/Constant3' */
+
+/* PCB过温1消抖修复次数阈值 */
+uint8_T OBD_ctPCBHiLvl2DebDef_C = 5U;  /* Referenced by: '<S219>/Constant6' */
+
+/* PCB过温2消抖确认次数阈值 */
+uint8_T OBD_ctPCBHiLvl2DebOK_C = 5U;   /* Referenced by: '<S219>/Constant2' */
+
+/* PCB过温2消抖修复次数阈值 */
+uint8_T OBD_ctPCBHiLvl3DebDef_C = 5U;  /* Referenced by: '<S220>/Constant6' */
+
+/* PCB过温3消抖确认次数阈值 */
+uint8_T OBD_ctPCBHiLvl3DebOK_C = 5U;   /* Referenced by: '<S220>/Constant2' */
+
+/* PCB过温3消抖修复次数阈值 */
+boolean_T OBD_enFaltClrDCBusLoLvl4_C = 1;
+                        /* Referenced by: '<S158>/OBD_enFaltClrDCBusLoLvl4_C' */
+
+/* 四级欠压恢复后清除故障使能（无论手动值设置是否使能） */
+boolean_T OBD_enFaltClrMan_C = 0;
+                                /* Referenced by: '<S158>/OBD_enFaltClrMan_C' */
+
+/* 手动故障清除使能 */
+uint8_T OBD_flgEn_C = 1U;              /* Referenced by: '<S292>/Constant70' */
+
+/* 诊断使能开关为0,所有诊断使能都为0,诊断使能开关为1,按照故障控制使能bit5值确定使能开关 */
+int16_T OBD_iOvrCurrLvl1OKPU_C = -5461;/* Referenced by: '<S234>/Parameter1' */
+
+/* 电机一级过流恢复阈值 */
+int16_T OBD_iOvrCurrLvl1PU_C = 26214;  /* Referenced by: '<S234>/Constant2' */
+
+/* 电机一级过流阈值 */
+int16_T OBD_iOvrCurrLvl2OKPU_C = -5461;/* Referenced by: '<S235>/Parameter1' */
+
+/* 电机二级过流恢复阈值 */
+int16_T OBD_iOvrCurrLvl2PU_C = 26214;  /* Referenced by: '<S235>/Constant2' */
+
+/* 电机二级过流阈值 */
+int16_T OBD_iOvrCurrLvl3OKPU_C = -5461;/* Referenced by: '<S236>/Parameter1' */
+
+/* 电机三级过流恢复阈值 */
+int16_T OBD_iOvrCurrLvl3PU_C = 26214;  /* Referenced by: '<S236>/Constant2' */
+
+/* 电机三级过流阈值 */
+uint16_T OBD_iQaxTagtSub_C[40] = { 1U, 0U, 0U, 0U, 0U, 0U, 0U, 0U, 0U, 0U, 0U,
+  0U, 0U, 0U, 0U, 0U, 0U, 0U, 0U, 0U, 0U, 0U, 0U, 0U, 0U, 0U, 0U, 0U, 0U, 0U, 0U,
+  0U, 0U, 0U, 0U, 0U, 0U, 0U, 0U, 0U } ;/* Referenced by: '<S156>/Constant1' */
+
+/* 各故障替代目标电流 */
+int16_T OBD_nTagtMechSub_C[40] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 } ;/* Referenced by: '<S156>/Constant' */
+
+/* 各故障替代目标转速 */
+uint16_T OBD_stCtlDFPMng_C[40] = { 0U, 0U, 0U, 50U, 40U, 0U, 0U, 0U, 0U, 0U,
+  0U, 0U, 0U, 0U, 44U, 48U, 0U, 0U, 0U, 0U, 0U, 0U, 0U, 0U, 0U, 0U, 0U, 0U, 0U,
+  0U, 0U, 0U, 0U, 0U, 0U, 0U, 0U, 0U, 0U, 0U } ;/* Referenced by:
+                                                 * '<S154>/Constant'
+                                                 * '<S160>/Constant2'
+                                                 * '<S292>/Constant35'
+                                                 */
+
+/* 故障控制使能,每一个元素代表对应故障的 */
+uint16_T OBD_tIGBTHiLvl1OK_C = 440U;   /* Referenced by: '<S192>/Parameter1' */
+
+/* IGBT温度一级过温阈值 */
+uint16_T OBD_tIGBTHiLvl1_C = 560U;     /* Referenced by: '<S192>/Parameter2' */
+
+/* IGBT温度一级过温阈值 */
+uint16_T OBD_tIGBTHiLvl2OK_C = 560U;   /* Referenced by: '<S193>/Parameter4' */
+
+/* IGBT温度二级过温恢复阈值 */
+uint16_T OBD_tIGBTHiLvl2_C = 600U;     /* Referenced by: '<S193>/Parameter3' */
+
+/* IGBT温度二级过温阈值 */
+uint16_T OBD_tIGBTHiLvl3OK_C = 600U;   /* Referenced by: '<S194>/Parameter4' */
+
+/* IGBT温度二级过温恢复阈值 */
+uint16_T OBD_tIGBTHiLvl3_C = 640U;     /* Referenced by: '<S194>/Parameter3' */
+
+/* IGBT温度一级过温阈值 */
+uint16_T OBD_tPCBHiLvl1OK_C = 500U;    /* Referenced by: '<S218>/Parameter1' */
+
+/* PCB温度高限1恢复阈值 */
+uint16_T OBD_tPCBHiLvl1_C = 740U;      /* Referenced by: '<S218>/Parameter2' */
+
+/* PCB温度高限1阈值 */
+uint16_T OBD_tPCBHiLvl2OK_C = 500U;    /* Referenced by: '<S219>/Parameter1' */
+
+/* PCB温度高限2恢复阈值 */
+uint16_T OBD_tPCBHiLvl2_C = 752U;      /* Referenced by: '<S219>/Parameter2' */
+
+/* PCB温度高限2阈值 */
+uint16_T OBD_tPCBHiLvl3OK_C = 500U;    /* Referenced by: '<S220>/Parameter1' */
+
+/* PCB温度高限3恢复阈值 */
+uint16_T OBD_tPCBHiLvl3_C = 620U;      /* Referenced by: '<S220>/Parameter2' */
+
+/* PCB温度高限3阈值 */
+uint8_T OBD_tiCanHeartLosDebDef_C = 10U;/* Referenced by: '<S177>/Constant1' */
+
+/* Can信号心跳丢失消抖确认时间阈值 */
+int16_T OBD_uDCBusHiLvl1OK_C = 25600;  /* Referenced by: '<S251>/Constant3' */
+
+/* 母线电压过压1恢复高限阈值 */
+int16_T OBD_uDCBusHiLvl1_C = 26624;    /* Referenced by: '<S251>/Constant6' */
+
+/* 母线电压过压1高限阈值 */
+int16_T OBD_uDCBusHiLvl2OK_C = 25600;  /* Referenced by: '<S252>/Constant3' */
+
+/* 母线电压过压2恢复高限阈值 */
+int16_T OBD_uDCBusHiLvl2_C = 27648;    /* Referenced by: '<S252>/Constant2' */
+
+/* 母线电压过压2高限阈值 */
+int16_T OBD_uDCBusHiLvl3OK_C = 25600;  /* Referenced by: '<S253>/Constant3' */
+
+/* 母线电压过压3恢复高限阈值 */
+int16_T OBD_uDCBusHiLvl3_C = 28672;    /* Referenced by: '<S253>/Constant2' */
+
+/* 母线电压过压3高限阈值 */
+int16_T OBD_uDCBusLoDebOk1_C = 8600;  /* Referenced by: '<S266>/Constant3' */
+
+/* 母线欠压一级恢复阈值 */
+int16_T OBD_uDCBusLoDebOk2_C = 9216;   /* Referenced by: '<S267>/Constant3' */
+
+/* 母线欠压二级恢复阈值 */
+int16_T OBD_uDCBusLoDebOk3_C = 8192;   /* Referenced by: '<S268>/Constant3' */
+
+/* 母线欠压三级恢复阈值 */
+int16_T OBD_uDCBusLoDebOk4_C = 7168;   /* Referenced by: '<S269>/Constant3' */
+
+/* 母线欠压四级恢复阈值 */
+int16_T OBD_uDCBusLoLvl1_C = 6900;     /* Referenced by: '<S266>/Constant6' */
+
+/* 母线电压一级欠压阈值 */
+int16_T OBD_uDCBusLoLvl2_C = 7000;     /* Referenced by: '<S267>/Parameter3' */
+
+/* 母线电压二级欠压阈值 */
+int16_T OBD_uDCBusLoLvl3_C = 7000;     /* Referenced by: '<S268>/Parameter3' */
+
+/* 母线电压三级欠压阈值 */
+int16_T OBD_uDCBusLoLvl4_C = 6144;     /* Referenced by: '<S269>/Parameter2' */
+
+/* 母线电压四级欠压阈值 */
+uint16_T Par_facDaxCurrCtlKc_C = 256U;
+                              /* Referenced by: '<S20>/Par_facDaxCurrCtlKc_C' */
+
+/* D轴电流闭环控制抗饱和系数 */
+uint16_T Par_facDaxCurrCtlKi_C = 300U;
+                              /* Referenced by: '<S20>/Par_facDaxCurrCtlKi_C' */
+
+/* D轴电流闭环控制积分系数 */
+uint16_T Par_facDaxCurrCtlKp_C = 1200U;
+                              /* Referenced by: '<S20>/Par_facDaxCurrCtlKp_C' */
+
+/* D轴电流闭环控制比例系数 */
+uint16_T Par_facQaxCurrCtlKc_C = 256U;
+                              /* Referenced by: '<S21>/Par_facQaxCurrCtlKc_C' */
+
+/* Q轴电流闭环控制抗饱和系数 */
+uint16_T Par_facQaxCurrCtlKi_C = 300U;
+                              /* Referenced by: '<S21>/Par_facQaxCurrCtlKi_C' */
+
+/* Q轴电流闭环控制积分系数 */
+uint16_T Par_facQaxCurrCtlKp_C = 1200U;
+                              /* Referenced by: '<S21>/Par_facQaxCurrCtlKp_C' */
+
+/* Q轴电流闭环控制比例系数 */
+uint16_T Par_facSpdCtlKc_C = 256U;     /* Referenced by: '<S382>/Constant2' */
+
+/* 速度闭环控制抗饱和系数 */
+uint16_T Par_facSpdCtlKi_C = 200U;     /* Referenced by: '<S382>/Constant1' */
+
+/* 速度闭环控制积分系数 */
+uint16_T Par_facSpdCtlKp_C = 6500U;    /* Referenced by: '<S382>/Constant4' */
+
+/* 速度闭环控制比例系数 */
+uint8_T Par_numMotoPP_C = 5U;          /* Referenced by:
+                                        * '<S395>/Constant'
+                                        * '<S395>/Constant1'
+                                        * '<S395>/Constant2'
+                                        * '<S128>/Par_numMotoPP_C'
+                                        */
+
+/* 电机极对数 */
+uint8_T SigIn_ctCANHeartGenr_C = 15U;  /* Referenced by: '<S377>/Constant1' */
+
+/* CAN心跳循环累加总次数手动设置 */
+uint8_T SigIn_ctOvrCurrDebDef_C = 2U;  /* Referenced by:
+                                        * '<S305>/Constant4'
+                                        * '<S305>/Constant5'
+                                        */
+boolean_T SigIn_enOvrCurrDet_C = 0;    /* Referenced by: '<S305>/Constant1' */
+int16_T SigIn_iOvrCurrOKPU_C = -5461;  /* Referenced by: '<S305>/Parameter1' */
+int16_T SigIn_iOvrCurrPU_C = 26214;    /* Referenced by: '<S305>/Constant2' */
+int16_T SigIn_nTagtMechRaw_C = 0;      /* Referenced by: '<S336>/Constant2' */
+
+/* 目标机械转速原始值 */
+uint16_T SigIn_stSwtSel_C = 528U;      /* Referenced by: '<S349>/Constant2' */
+
+/* 输入信号选择开关 */
+uint8_T SigIn_stWrkMode_C = 0U;        /* Referenced by: '<S336>/Constant' */
+
+/* 电机工作模式 */
+
+//#pragma section farrom restore
+
+/*
+ * File trailer for generated code.
+ *
+ * [EOF]
+ */

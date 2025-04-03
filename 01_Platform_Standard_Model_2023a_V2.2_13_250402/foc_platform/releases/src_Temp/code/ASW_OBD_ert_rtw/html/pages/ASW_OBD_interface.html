@@ -1,0 +1,3203 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><link rel="stylesheet" type="text/css" href="rtwreport.css" /><script language="JavaScript" type="text/javascript">function rtwTableShrink(o) {var t = o.nextSibling;if (t.nodeType != 1) {t = t.nextSibling;}if (t.style.display == "none") {t.style.display = "";o.innerHTML = "[-]"} else {t.style.display = "none";o.innerHTML = "[+] ... "}}</script><script>function postParentWindowMessage(message) {window.parent.postMessage(message, "*");}</script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>
+ASW_OBD 的代码接口报告
+</title>
+
+</head>
+<body>
+<h1>
+ASW_OBD 的代码接口报告
+</h1>
+<h3>
+目录
+</h3>
+<ul>
+<li>
+<a href="#sec_入口函数">
+入口函数
+</a>
+
+</li>
+<li>
+<a href="#sec_输入端口">
+输入端口
+</a>
+
+</li>
+<li>
+<a href="#sec_输出端口">
+输出端口
+</a>
+
+</li>
+<li>
+<a href="#sec_接口参数">
+接口参数
+</a>
+
+</li>
+<li>
+<a href="#sec_数据存储">
+数据存储
+</a>
+
+</li>
+
+</ul>
+<h3>
+<a name="sec_入口函数">
+入口函数
+</a>
+
+</h3>
+<p>
+函数: <a href="javascript: void(0)" onclick="postParentWindowMessage({message:'jumpToCode',location:'ASW_OBD_Init'})">ASW_OBD_Init</a>
+</p>
+<table width="100%" class="AltRow" cellspacing="0">
+<tr class="even">
+<td width="25%" align="left" valign="top">
+原型
+</td>
+<td width="75%" align="left" valign="top">
+<b>
+void ASW_OBD_Init(void)
+</b>
+
+</td>
+
+</tr>
+<tr class="odd">
+<td width="25%" align="left" valign="top">
+描述
+</td>
+<td width="75%" align="left" valign="top">
+生成代码的初始化入口函数
+</td>
+
+</tr>
+<tr class="even">
+<td width="25%" align="left" valign="top">
+定时
+</td>
+<td width="75%" align="left" valign="top">
+只能调用一次
+</td>
+
+</tr>
+<tr class="odd">
+<td width="25%" align="left" valign="top">
+参数
+</td>
+<td width="75%" align="left" valign="top">
+None
+</td>
+
+</tr>
+<tr class="even">
+<td width="25%" align="left" valign="top">
+返回值
+</td>
+<td width="75%" align="left" valign="top">
+None
+</td>
+
+</tr>
+<tr class="odd">
+<td width="25%" align="left" valign="top">
+头文件
+</td>
+<td width="75%" align="left" valign="top">
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'jumpToCode',location:'ASW_OBD.h'})">ASW_OBD.h</a>
+</td>
+
+</tr>
+
+</table>
+<p>
+函数: <a href="javascript: void(0)" onclick="postParentWindowMessage({message:'jumpToCode',location:'ASW_OBD_step'})">ASW_OBD_step</a>
+</p>
+<table width="100%" class="AltRow" cellspacing="0">
+<tr class="even">
+<td width="25%" align="left" valign="top">
+原型
+</td>
+<td width="75%" align="left" valign="top">
+<b>
+void ASW_OBD_step(void)
+</b>
+
+</td>
+
+</tr>
+<tr class="odd">
+<td width="25%" align="left" valign="top">
+描述
+</td>
+<td width="75%" align="left" valign="top">
+生成代码的输出入口函数
+</td>
+
+</tr>
+<tr class="even">
+<td width="25%" align="left" valign="top">
+定时
+</td>
+<td width="75%" align="left" valign="top">
+必须周期性调用，每 0.000125 秒调用一次
+</td>
+
+</tr>
+<tr class="odd">
+<td width="25%" align="left" valign="top">
+参数
+</td>
+<td width="75%" align="left" valign="top">
+None
+</td>
+
+</tr>
+<tr class="even">
+<td width="25%" align="left" valign="top">
+返回值
+</td>
+<td width="75%" align="left" valign="top">
+None
+</td>
+
+</tr>
+<tr class="odd">
+<td width="25%" align="left" valign="top">
+头文件
+</td>
+<td width="75%" align="left" valign="top">
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'jumpToCode',location:'ASW_OBD.h'})">ASW_OBD.h</a>
+</td>
+
+</tr>
+
+</table>
+<h3>
+<a name="sec_输入端口">
+输入端口
+</a>
+
+</h3>
+<table width="100%" class="AltRow FirstColumn" cellspacing="0">
+<tr class="heading">
+<th width="42%" align="left" valign="top">
+<b>
+模块名称
+</b>
+
+</th>
+<th width="26%" align="left" valign="top">
+<b>
+代码标识符
+</b>
+
+</th>
+<th width="21%" align="left" valign="top">
+<b>
+数据类型
+</b>
+
+</th>
+<th width="10%" align="right" valign="top">
+<b>
+维度
+</b>
+
+</th>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'coder.internal.code2model(\'ASW_OBD:4124\')'})"  name="code2model" class="code2model">&lt;Root&gt;/busOBD_SlwTaskIn</a>
+</td>
+<td width="26%" align="left" valign="top">
+busOBD_SlwTaskIn
+</td>
+<td width="21%" align="left" valign="top">
+BUS_OBD_SLW_TASK_IN
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+
+</table>
+<h3>
+<a name="sec_输出端口">
+输出端口
+</a>
+
+</h3>
+<table width="100%" class="AltRow FirstColumn" cellspacing="0">
+<tr class="heading">
+<th width="42%" align="left" valign="top">
+<b>
+模块名称
+</b>
+
+</th>
+<th width="26%" align="left" valign="top">
+<b>
+代码标识符
+</b>
+
+</th>
+<th width="21%" align="left" valign="top">
+<b>
+数据类型
+</b>
+
+</th>
+<th width="10%" align="right" valign="top">
+<b>
+维度
+</b>
+
+</th>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'coder.internal.code2model(\'ASW_OBD:4125\')'})"  name="code2model" class="code2model">&lt;Root&gt;/busOBD_SlwTaskOut</a>
+</td>
+<td width="26%" align="left" valign="top">
+busOBD_SlwTaskOut
+</td>
+<td width="21%" align="left" valign="top">
+BUS_OBD_SLW_TASK_OUT
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+
+</table>
+<h3>
+<a name="sec_接口参数">
+接口参数
+</a>
+
+</h3>
+<span title="点击以收缩或展开表" onclick="rtwTableShrink(this)">[-]</span><table width="100%" class="AltRow FirstColumn" cellspacing="0">
+<tr class="heading">
+<th width="38%" align="left" valign="top">
+<b>
+参数源
+</b>
+
+</th>
+<th width="23%" align="left" valign="top">
+<b>
+代码标识符
+</b>
+
+</th>
+<th width="19%" align="left" valign="top">
+<b>
+数据类型
+</b>
+
+</th>
+<th width="9%" align="left" valign="top">
+<b>
+定标
+</b>
+
+</th>
+<th width="9%" align="right" valign="top">
+<b>
+维度
+</b>
+
+</th>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gs16_iColdStrtPhCurrHiLvl1ConfTrs_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gs16_iColdStrtPhCurrHiLvl1ConfTrs_C
+</td>
+<td width="19%" align="left" valign="top">
+dt_Standardize_s16p15b0
+</td>
+<td width="9%" align="left" valign="top">
+<span title="  DataTypeMode: Fixed-point: binary point scaling
+    Signedness: Signed
+    WordLength: 16
+FractionLength: 15
+">sfix16_En15</span>
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gs16_iColdStrtPhCurrHiLvl1RcvyTrs_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gs16_iColdStrtPhCurrHiLvl1RcvyTrs_C
+</td>
+<td width="19%" align="left" valign="top">
+dt_Standardize_s16p15b0
+</td>
+<td width="9%" align="left" valign="top">
+<span title="  DataTypeMode: Fixed-point: binary point scaling
+    Signedness: Signed
+    WordLength: 16
+FractionLength: 15
+">sfix16_En15</span>
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gs16_iNoLdPhCurr_CUR
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gs16_iNoLdPhCurr_CUR
+</td>
+<td width="19%" align="left" valign="top">
+dt_Standardize_s16p15b0
+</td>
+<td width="9%" align="left" valign="top">
+<span title="  DataTypeMode: Fixed-point: binary point scaling
+    Signedness: Signed
+    WordLength: 16
+FractionLength: 15
+">sfix16_En15</span>
+</td>
+<td width="9%" align="right" valign="top">
+[1  5]
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gs16_iNoLdPhCurr_CUR_nActElecSpd_X
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gs16_iNoLdPhCurr_CUR_nActElecSpd_X
+</td>
+<td width="19%" align="left" valign="top">
+dt_Standardize_s16p15b0
+</td>
+<td width="9%" align="left" valign="top">
+<span title="  DataTypeMode: Fixed-point: binary point scaling
+    Signedness: Signed
+    WordLength: 16
+FractionLength: 15
+">sfix16_En15</span>
+</td>
+<td width="9%" align="right" valign="top">
+[1  5]
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gs16_iPhCurrHiLvl1ConfTrs_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gs16_iPhCurrHiLvl1ConfTrs_C
+</td>
+<td width="19%" align="left" valign="top">
+dt_Standardize_s16p15b0
+</td>
+<td width="9%" align="left" valign="top">
+<span title="  DataTypeMode: Fixed-point: binary point scaling
+    Signedness: Signed
+    WordLength: 16
+FractionLength: 15
+">sfix16_En15</span>
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gs16_iPhCurrHiLvl1RcvyTrs_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gs16_iPhCurrHiLvl1RcvyTrs_C
+</td>
+<td width="19%" align="left" valign="top">
+dt_Standardize_s16p15b0
+</td>
+<td width="9%" align="left" valign="top">
+<span title="  DataTypeMode: Fixed-point: binary point scaling
+    Signedness: Signed
+    WordLength: 16
+FractionLength: 15
+">sfix16_En15</span>
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gs16_nLmpHmeRefMechSpd_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gs16_nLmpHmeRefMechSpd_C
+</td>
+<td width="19%" align="left" valign="top">
+dt_Standardize_s16p15b0
+</td>
+<td width="9%" align="left" valign="top">
+<span title="  DataTypeMode: Fixed-point: binary point scaling
+    Signedness: Signed
+    WordLength: 16
+FractionLength: 15
+">sfix16_En15</span>
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gs16_nMaxMotoSpdDvtConfTrs_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gs16_nMaxMotoSpdDvtConfTrs_C
+</td>
+<td width="19%" align="left" valign="top">
+dt_Standardize_s16p15b0
+</td>
+<td width="9%" align="left" valign="top">
+<span title="  DataTypeMode: Fixed-point: binary point scaling
+    Signedness: Signed
+    WordLength: 16
+FractionLength: 15
+">sfix16_En15</span>
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gs16_nMaxRefMechSpd_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gs16_nMaxRefMechSpd_C
+</td>
+<td width="19%" align="left" valign="top">
+dt_Standardize_s16p15b0
+</td>
+<td width="9%" align="left" valign="top">
+<span title="  DataTypeMode: Fixed-point: binary point scaling
+    Signedness: Signed
+    WordLength: 16
+FractionLength: 15
+">sfix16_En15</span>
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gs16_nMinMotoSpdDvtRcvyTrs_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gs16_nMinMotoSpdDvtRcvyTrs_C
+</td>
+<td width="19%" align="left" valign="top">
+dt_Standardize_s16p15b0
+</td>
+<td width="9%" align="left" valign="top">
+<span title="  DataTypeMode: Fixed-point: binary point scaling
+    Signedness: Signed
+    WordLength: 16
+FractionLength: 15
+">sfix16_En15</span>
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gs16_nMotoStallMinRefElecSpd_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gs16_nMotoStallMinRefElecSpd_C
+</td>
+<td width="19%" align="left" valign="top">
+dt_Standardize_s16p15b0
+</td>
+<td width="9%" align="left" valign="top">
+<span title="  DataTypeMode: Fixed-point: binary point scaling
+    Signedness: Signed
+    WordLength: 16
+FractionLength: 15
+">sfix16_En15</span>
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gs16_nMotoTmpStallRefMechSpd_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gs16_nMotoTmpStallRefMechSpd_C
+</td>
+<td width="19%" align="left" valign="top">
+dt_Standardize_s16p15b0
+</td>
+<td width="9%" align="left" valign="top">
+<span title="  DataTypeMode: Fixed-point: binary point scaling
+    Signedness: Signed
+    WordLength: 16
+FractionLength: 15
+">sfix16_En15</span>
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gs16_nNoLdJudgActElecSpd_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gs16_nNoLdJudgActElecSpd_C
+</td>
+<td width="19%" align="left" valign="top">
+dt_Standardize_s16p15b0
+</td>
+<td width="9%" align="left" valign="top">
+<span title="  DataTypeMode: Fixed-point: binary point scaling
+    Signedness: Signed
+    WordLength: 16
+FractionLength: 15
+">sfix16_En15</span>
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gs16_trqTmpStallTqUpLim_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gs16_trqTmpStallTqUpLim_C
+</td>
+<td width="19%" align="left" valign="top">
+dt_Standardize_s16p15b0
+</td>
+<td width="9%" align="left" valign="top">
+<span title="  DataTypeMode: Fixed-point: binary point scaling
+    Signedness: Signed
+    WordLength: 16
+FractionLength: 15
+">sfix16_En15</span>
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gs16_trqTqUpLim_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gs16_trqTqUpLim_C
+</td>
+<td width="19%" align="left" valign="top">
+dt_Standardize_s16p15b0
+</td>
+<td width="9%" align="left" valign="top">
+<span title="  DataTypeMode: Fixed-point: binary point scaling
+    Signedness: Signed
+    WordLength: 16
+FractionLength: 15
+">sfix16_En15</span>
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu16_nMotoSpdHiLvl1ConfTrs_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_nMotoSpdHiLvl1ConfTrs_C
+</td>
+<td width="19%" align="left" valign="top">
+dt_Standardize_s16p15b0
+</td>
+<td width="9%" align="left" valign="top">
+<span title="  DataTypeMode: Fixed-point: binary point scaling
+    Signedness: Signed
+    WordLength: 16
+FractionLength: 15
+">sfix16_En15</span>
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu16_nMotoSpdHiLvl1RcvyTrs_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_nMotoSpdHiLvl1RcvyTrs_C
+</td>
+<td width="19%" align="left" valign="top">
+dt_Standardize_s16p15b0
+</td>
+<td width="9%" align="left" valign="top">
+<span title="  DataTypeMode: Fixed-point: binary point scaling
+    Signedness: Signed
+    WordLength: 16
+FractionLength: 15
+">sfix16_En15</span>
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu16_psiEstMinPermMagFlx_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_psiEstMinPermMagFlx_C
+</td>
+<td width="19%" align="left" valign="top">
+dt_Standardize_u16p15b0
+</td>
+<td width="9%" align="left" valign="top">
+<span title="  DataTypeMode: Fixed-point: binary point scaling
+    Signedness: Unsigned
+    WordLength: 16
+FractionLength: 15
+">ufix16_En15</span>
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu16_pwrBattPwrHiLvl1ConfTrs_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_pwrBattPwrHiLvl1ConfTrs_C
+</td>
+<td width="19%" align="left" valign="top">
+dt_Standardize_u16p15b0
+</td>
+<td width="9%" align="left" valign="top">
+<span title="  DataTypeMode: Fixed-point: binary point scaling
+    Signedness: Unsigned
+    WordLength: 16
+FractionLength: 15
+">ufix16_En15</span>
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu16_uCtlBrdVltgHiLvl1ConfTrs_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_uCtlBrdVltgHiLvl1ConfTrs_C
+</td>
+<td width="19%" align="left" valign="top">
+dt_Standardize_u16p15b0
+</td>
+<td width="9%" align="left" valign="top">
+<span title="  DataTypeMode: Fixed-point: binary point scaling
+    Signedness: Unsigned
+    WordLength: 16
+FractionLength: 15
+">ufix16_En15</span>
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu16_uCtlBrdVltgHiLvl1RcvyTrs_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_uCtlBrdVltgHiLvl1RcvyTrs_C
+</td>
+<td width="19%" align="left" valign="top">
+dt_Standardize_u16p15b0
+</td>
+<td width="9%" align="left" valign="top">
+<span title="  DataTypeMode: Fixed-point: binary point scaling
+    Signedness: Unsigned
+    WordLength: 16
+FractionLength: 15
+">ufix16_En15</span>
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu16_uCtlBrdVltgLoLvl1ConfTrs_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_uCtlBrdVltgLoLvl1ConfTrs_C
+</td>
+<td width="19%" align="left" valign="top">
+dt_Standardize_u16p15b0
+</td>
+<td width="9%" align="left" valign="top">
+<span title="  DataTypeMode: Fixed-point: binary point scaling
+    Signedness: Unsigned
+    WordLength: 16
+FractionLength: 15
+">ufix16_En15</span>
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu16_uCtlBrdVltgLoLvl1RcvyTrs_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_uCtlBrdVltgLoLvl1RcvyTrs_C
+</td>
+<td width="19%" align="left" valign="top">
+dt_Standardize_u16p15b0
+</td>
+<td width="9%" align="left" valign="top">
+<span title="  DataTypeMode: Fixed-point: binary point scaling
+    Signedness: Unsigned
+    WordLength: 16
+FractionLength: 15
+">ufix16_En15</span>
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu16_uLimHmeSplyVltgConfTrs_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_uLimHmeSplyVltgConfTrs_C
+</td>
+<td width="19%" align="left" valign="top">
+dt_Standardize_u16p15b0
+</td>
+<td width="9%" align="left" valign="top">
+<span title="  DataTypeMode: Fixed-point: binary point scaling
+    Signedness: Unsigned
+    WordLength: 16
+FractionLength: 15
+">ufix16_En15</span>
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu16_uLimHmeSplyVltgRcvyTrs_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_uLimHmeSplyVltgRcvyTrs_C
+</td>
+<td width="19%" align="left" valign="top">
+dt_Standardize_u16p15b0
+</td>
+<td width="9%" align="left" valign="top">
+<span title="  DataTypeMode: Fixed-point: binary point scaling
+    Signedness: Unsigned
+    WordLength: 16
+FractionLength: 15
+">ufix16_En15</span>
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu16_uSplyVltgHiLvl1ConfTrs_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_uSplyVltgHiLvl1ConfTrs_C
+</td>
+<td width="19%" align="left" valign="top">
+dt_Standardize_u16p15b0
+</td>
+<td width="9%" align="left" valign="top">
+<span title="  DataTypeMode: Fixed-point: binary point scaling
+    Signedness: Unsigned
+    WordLength: 16
+FractionLength: 15
+">ufix16_En15</span>
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu16_uSplyVltgHiLvl1RcvyTrs_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_uSplyVltgHiLvl1RcvyTrs_C
+</td>
+<td width="19%" align="left" valign="top">
+dt_Standardize_u16p15b0
+</td>
+<td width="9%" align="left" valign="top">
+<span title="  DataTypeMode: Fixed-point: binary point scaling
+    Signedness: Unsigned
+    WordLength: 16
+FractionLength: 15
+">ufix16_En15</span>
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu16_uSplyVltgLoLvl1ConfTrs_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_uSplyVltgLoLvl1ConfTrs_C
+</td>
+<td width="19%" align="left" valign="top">
+dt_Standardize_u16p15b0
+</td>
+<td width="9%" align="left" valign="top">
+<span title="  DataTypeMode: Fixed-point: binary point scaling
+    Signedness: Unsigned
+    WordLength: 16
+FractionLength: 15
+">ufix16_En15</span>
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu16_uSplyVltgLoLvl1RcvyTrs_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_uSplyVltgLoLvl1RcvyTrs_C
+</td>
+<td width="19%" align="left" valign="top">
+dt_Standardize_u16p15b0
+</td>
+<td width="9%" align="left" valign="top">
+<span title="  DataTypeMode: Fixed-point: binary point scaling
+    Signedness: Unsigned
+    WordLength: 16
+FractionLength: 15
+">ufix16_En15</span>
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu16_uSplyVltgLoLvl2ConfTrs_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_uSplyVltgLoLvl2ConfTrs_C
+</td>
+<td width="19%" align="left" valign="top">
+dt_Standardize_u16p15b0
+</td>
+<td width="9%" align="left" valign="top">
+<span title="  DataTypeMode: Fixed-point: binary point scaling
+    Signedness: Unsigned
+    WordLength: 16
+FractionLength: 15
+">ufix16_En15</span>
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu16_uSplyVltgLoLvl2RcvyTrs_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_uSplyVltgLoLvl2RcvyTrs_C
+</td>
+<td width="19%" align="left" valign="top">
+dt_Standardize_u16p15b0
+</td>
+<td width="9%" align="left" valign="top">
+<span title="  DataTypeMode: Fixed-point: binary point scaling
+    Signedness: Unsigned
+    WordLength: 16
+FractionLength: 15
+">ufix16_En15</span>
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu16_ctBattPwrHiLvl1ConfCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctBattPwrHiLvl1ConfCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu16_ctBattPwrHiLvl1RcvyCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctBattPwrHiLvl1RcvyCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu16_ctBusOffFaltConfCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctBusOffFaltConfCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu16_ctBusOffFaltRcvyCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctBusOffFaltRcvyCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu16_ctCRCFaltConfCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctCRCFaltConfCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu16_ctCRCFaltRcvyCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctCRCFaltRcvyCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu16_ctChipFaltConfCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctChipFaltConfCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu16_ctChipFaltRcvyCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctChipFaltRcvyCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu16_ctComLosFaltConfCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctComLosFaltConfCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu16_ctComLosFaltRcvyCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctComLosFaltRcvyCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu16_ctComRolCntFaltConfCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctComRolCntFaltConfCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu16_ctComRolCntFaltRcvyCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctComRolCntFaltRcvyCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu16_ctCrashFaltConfCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctCrashFaltConfCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu16_ctCrashFaltRcvyCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctCrashFaltRcvyCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu16_ctCtlBrdVltgHiLvl1ConfCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctCtlBrdVltgHiLvl1ConfCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu16_ctCtlBrdVltgHiLvl1RcvyCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctCtlBrdVltgHiLvl1RcvyCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu16_ctCtlBrdVltgLoLvl1ConfCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctCtlBrdVltgLoLvl1ConfCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu16_ctCtlBrdVltgLoLvl1RcvyCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctCtlBrdVltgLoLvl1RcvyCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu16_ctFaltDiaComSdlCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctFaltDiaComSdlCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu16_ctFaltDiaFstSdlCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctFaltDiaFstSdlCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu16_ctFaltDiaSlwSdlCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctFaltDiaSlwSdlCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu16_ctGDVltgHiLvl1ConfCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctGDVltgHiLvl1ConfCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu16_ctGDVltgHiLvl1RcvyCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctGDVltgHiLvl1RcvyCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu16_ctGDVltgLoLvl1ConfCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctGDVltgLoLvl1ConfCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu16_ctGDVltgLoLvl1RcvyCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctGDVltgLoLvl1RcvyCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu16_ctHWOvrCurrConfCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctHWOvrCurrConfCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu16_ctHWOvrCurrRcvyCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctHWOvrCurrRcvyCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu16_ctMaxMotoSpdDvtConfCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctMaxMotoSpdDvtConfCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu16_ctMinMotoSpdDvtRcvyCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctMinMotoSpdDvtRcvyCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu16_ctMosOpnCirFaltConfCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctMosOpnCirFaltConfCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu16_ctMosOpnCirFaltRcvyCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctMosOpnCirFaltRcvyCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu16_ctMotoSpdHiLvl1ConfCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctMotoSpdHiLvl1ConfCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu16_ctMotoSpdHiLvl1RcvyCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctMotoSpdHiLvl1RcvyCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu16_ctMotoStallConfCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctMotoStallConfCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu16_ctMotoStallRcvyCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctMotoStallRcvyCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu16_ctMotoTempFaltConfCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctMotoTempFaltConfCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu16_ctMotoTempFaltRcvyCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctMotoTempFaltRcvyCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu16_ctMotoTempHiLvl1ConfCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctMotoTempHiLvl1ConfCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu16_ctMotoTempHiLvl1RcvyCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctMotoTempHiLvl1RcvyCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu16_ctMotoTempHiLvl2ConfCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctMotoTempHiLvl2ConfCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu16_ctMotoTempHiLvl2RcvyCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctMotoTempHiLvl2RcvyCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu16_ctNoLdConfCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctNoLdConfCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu16_ctNoLdRcvyCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctNoLdRcvyCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu16_ctPCBTempFaltConfCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctPCBTempFaltConfCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu16_ctPCBTempFaltRcvyCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctPCBTempFaltRcvyCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu16_ctPCBTempHiLvl1ConfCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctPCBTempHiLvl1ConfCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu16_ctPCBTempHiLvl1RcvyCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctPCBTempHiLvl1RcvyCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu16_ctPCBTempHiLvl2ConfCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctPCBTempHiLvl2ConfCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu16_ctPCBTempHiLvl2RcvyCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctPCBTempHiLvl2RcvyCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu16_ctPhCurrHiLvl1ConfCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctPhCurrHiLvl1ConfCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu16_ctPhCurrHiLvl1RcvyCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctPhCurrHiLvl1RcvyCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu16_ctPhCurrSensFaltConfCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctPhCurrSensFaltConfCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu16_ctPhCurrSensFaltRcvyCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctPhCurrSensFaltRcvyCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu16_ctPhiSensFaltConfCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctPhiSensFaltConfCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu16_ctPhiSensFaltRcvyCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctPhiSensFaltRcvyCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu16_ctPwrTubTempFaltConfCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctPwrTubTempFaltConfCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu16_ctPwrTubTempFaltRcvyCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctPwrTubTempFaltRcvyCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu16_ctPwrTubTempHiLvl1ConfCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctPwrTubTempHiLvl1ConfCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu16_ctPwrTubTempHiLvl1RcvyCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctPwrTubTempHiLvl1RcvyCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu16_ctPwrTubTempHiLvl2ConfCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctPwrTubTempHiLvl2ConfCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu16_ctPwrTubTempHiLvl2RcvyCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctPwrTubTempHiLvl2RcvyCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu16_ctSplyVltgHiLvl1ConfCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctSplyVltgHiLvl1ConfCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu16_ctSplyVltgHiLvl1RcvyCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctSplyVltgHiLvl1RcvyCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu16_ctSplyVltgLoLvl1ConfCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctSplyVltgLoLvl1ConfCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu16_ctSplyVltgLoLvl1RcvyCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctSplyVltgLoLvl1RcvyCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu16_ctSplyVltgLoLvl2ConfCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctSplyVltgLoLvl2ConfCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu16_ctSplyVltgLoLvl2RcvyCnt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_ctSplyVltgLoLvl2RcvyCnt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu16_stCtlDFPMSt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_stCtlDFPMSt_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+[1  30]
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu16_uADMotoTempFaltHiLim_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_uADMotoTempFaltHiLim_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu16_uADMotoTempFaltLoLim_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_uADMotoTempFaltLoLim_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu16_uADPCBTempFaltLoLim_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_uADPCBTempFaltLoLim_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu16_uADPhUCurrFaltHiLim_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_uADPhUCurrFaltHiLim_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu16_uADPhUCurrFaltLoLim_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_uADPhUCurrFaltLoLim_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu16_uADPhVCurrFaltHiLim_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_uADPhVCurrFaltHiLim_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu16_uADPhVCurrFaltLoLim_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_uADPhVCurrFaltLoLim_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu16_uADPwrTubTempFaltLoLim_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu16_uADPwrTubTempFaltLoLim_C
+</td>
+<td width="19%" align="left" valign="top">
+uint16_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gbol_flgFaltManEnFlg_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gbol_flgFaltManEnFlg_C
+</td>
+<td width="19%" align="left" valign="top">
+boolean_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu8_tColdStrtPCBTempConfTrs_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu8_tColdStrtPCBTempConfTrs_C
+</td>
+<td width="19%" align="left" valign="top">
+dt_Temp_u8p0bn40
+</td>
+<td width="9%" align="left" valign="top">
+<span title="
+          DataTypeMode: Fixed-point: slope and bias scaling
+            Signedness: Unsigned
+            WordLength: 8
+                 Slope: 1
+                  Bias: -40
+">ufix8_Bn40</span>
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu8_tMaxNTCMCUTempDvt_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu8_tMaxNTCMCUTempDvt_C
+</td>
+<td width="19%" align="left" valign="top">
+dt_Temp_u8p0bn40
+</td>
+<td width="9%" align="left" valign="top">
+<span title="
+          DataTypeMode: Fixed-point: slope and bias scaling
+            Signedness: Unsigned
+            WordLength: 8
+                 Slope: 1
+                  Bias: -40
+">ufix8_Bn40</span>
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu8_tMotoTempHiLvl1ConfTrs_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu8_tMotoTempHiLvl1ConfTrs_C
+</td>
+<td width="19%" align="left" valign="top">
+dt_Temp_u8p0bn40
+</td>
+<td width="9%" align="left" valign="top">
+<span title="
+          DataTypeMode: Fixed-point: slope and bias scaling
+            Signedness: Unsigned
+            WordLength: 8
+                 Slope: 1
+                  Bias: -40
+">ufix8_Bn40</span>
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu8_tMotoTempHiLvl1RcvyTrs_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu8_tMotoTempHiLvl1RcvyTrs_C
+</td>
+<td width="19%" align="left" valign="top">
+dt_Temp_u8p0bn40
+</td>
+<td width="9%" align="left" valign="top">
+<span title="
+          DataTypeMode: Fixed-point: slope and bias scaling
+            Signedness: Unsigned
+            WordLength: 8
+                 Slope: 1
+                  Bias: -40
+">ufix8_Bn40</span>
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu8_tMotoTempHiLvl2ConfTrs_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu8_tMotoTempHiLvl2ConfTrs_C
+</td>
+<td width="19%" align="left" valign="top">
+dt_Temp_u8p0bn40
+</td>
+<td width="9%" align="left" valign="top">
+<span title="
+          DataTypeMode: Fixed-point: slope and bias scaling
+            Signedness: Unsigned
+            WordLength: 8
+                 Slope: 1
+                  Bias: -40
+">ufix8_Bn40</span>
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu8_tMotoTempHiLvl2RcvyTrs_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu8_tMotoTempHiLvl2RcvyTrs_C
+</td>
+<td width="19%" align="left" valign="top">
+dt_Temp_u8p0bn40
+</td>
+<td width="9%" align="left" valign="top">
+<span title="
+          DataTypeMode: Fixed-point: slope and bias scaling
+            Signedness: Unsigned
+            WordLength: 8
+                 Slope: 1
+                  Bias: -40
+">ufix8_Bn40</span>
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu8_tNTCTempSensNoOpnCir_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu8_tNTCTempSensNoOpnCir_C
+</td>
+<td width="19%" align="left" valign="top">
+dt_Temp_u8p0bn40
+</td>
+<td width="9%" align="left" valign="top">
+<span title="
+          DataTypeMode: Fixed-point: slope and bias scaling
+            Signedness: Unsigned
+            WordLength: 8
+                 Slope: 1
+                  Bias: -40
+">ufix8_Bn40</span>
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu8_tNTCTempSensOpnCir_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu8_tNTCTempSensOpnCir_C
+</td>
+<td width="19%" align="left" valign="top">
+dt_Temp_u8p0bn40
+</td>
+<td width="9%" align="left" valign="top">
+<span title="
+          DataTypeMode: Fixed-point: slope and bias scaling
+            Signedness: Unsigned
+            WordLength: 8
+                 Slope: 1
+                  Bias: -40
+">ufix8_Bn40</span>
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu8_tPCBTempHiLvl1ConfTrs_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu8_tPCBTempHiLvl1ConfTrs_C
+</td>
+<td width="19%" align="left" valign="top">
+dt_Temp_u8p0bn40
+</td>
+<td width="9%" align="left" valign="top">
+<span title="
+          DataTypeMode: Fixed-point: slope and bias scaling
+            Signedness: Unsigned
+            WordLength: 8
+                 Slope: 1
+                  Bias: -40
+">ufix8_Bn40</span>
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu8_tPCBTempHiLvl1RcvyTrs_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu8_tPCBTempHiLvl1RcvyTrs_C
+</td>
+<td width="19%" align="left" valign="top">
+dt_Temp_u8p0bn40
+</td>
+<td width="9%" align="left" valign="top">
+<span title="
+          DataTypeMode: Fixed-point: slope and bias scaling
+            Signedness: Unsigned
+            WordLength: 8
+                 Slope: 1
+                  Bias: -40
+">ufix8_Bn40</span>
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu8_tPCBTempHiLvl2ConfTrs_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu8_tPCBTempHiLvl2ConfTrs_C
+</td>
+<td width="19%" align="left" valign="top">
+dt_Temp_u8p0bn40
+</td>
+<td width="9%" align="left" valign="top">
+<span title="
+          DataTypeMode: Fixed-point: slope and bias scaling
+            Signedness: Unsigned
+            WordLength: 8
+                 Slope: 1
+                  Bias: -40
+">ufix8_Bn40</span>
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu8_tPCBTempHiLvl2RcvyTrs_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu8_tPCBTempHiLvl2RcvyTrs_C
+</td>
+<td width="19%" align="left" valign="top">
+dt_Temp_u8p0bn40
+</td>
+<td width="9%" align="left" valign="top">
+<span title="
+          DataTypeMode: Fixed-point: slope and bias scaling
+            Signedness: Unsigned
+            WordLength: 8
+                 Slope: 1
+                  Bias: -40
+">ufix8_Bn40</span>
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu8_tPwrTubTempHiLvl1ConfTrs_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu8_tPwrTubTempHiLvl1ConfTrs_C
+</td>
+<td width="19%" align="left" valign="top">
+dt_Temp_u8p0bn40
+</td>
+<td width="9%" align="left" valign="top">
+<span title="
+          DataTypeMode: Fixed-point: slope and bias scaling
+            Signedness: Unsigned
+            WordLength: 8
+                 Slope: 1
+                  Bias: -40
+">ufix8_Bn40</span>
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu8_tPwrTubTempHiLvl1RcvyTrs_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu8_tPwrTubTempHiLvl1RcvyTrs_C
+</td>
+<td width="19%" align="left" valign="top">
+dt_Temp_u8p0bn40
+</td>
+<td width="9%" align="left" valign="top">
+<span title="
+          DataTypeMode: Fixed-point: slope and bias scaling
+            Signedness: Unsigned
+            WordLength: 8
+                 Slope: 1
+                  Bias: -40
+">ufix8_Bn40</span>
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu8_tPwrTubTempHiLvl2ConfTrs_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu8_tPwrTubTempHiLvl2ConfTrs_C
+</td>
+<td width="19%" align="left" valign="top">
+dt_Temp_u8p0bn40
+</td>
+<td width="9%" align="left" valign="top">
+<span title="
+          DataTypeMode: Fixed-point: slope and bias scaling
+            Signedness: Unsigned
+            WordLength: 8
+                 Slope: 1
+                  Bias: -40
+">ufix8_Bn40</span>
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu8_tPwrTubTempHiLvl2RcvyTrs_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu8_tPwrTubTempHiLvl2RcvyTrs_C
+</td>
+<td width="19%" align="left" valign="top">
+dt_Temp_u8p0bn40
+</td>
+<td width="9%" align="left" valign="top">
+<span title="
+          DataTypeMode: Fixed-point: slope and bias scaling
+            Signedness: Unsigned
+            WordLength: 8
+                 Slope: 1
+                  Bias: -40
+">ufix8_Bn40</span>
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="38%" align="left" valign="top">
+Gu8_RollingMax_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu8_RollingMax_C
+</td>
+<td width="19%" align="left" valign="top">
+uint8_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="38%" align="left" valign="top">
+Gu8_RollingMin_C
+</td>
+<td width="23%" align="left" valign="top">
+<i>
+导入的数据:
+</i>
+Gu8_RollingMin_C
+</td>
+<td width="19%" align="left" valign="top">
+uint8_T
+</td>
+<td width="9%" align="left" valign="top">
+&#160;
+</td>
+<td width="9%" align="right" valign="top">
+1
+</td>
+
+</tr>
+
+</table>
+<h3>
+<a name="sec_数据存储">
+数据存储
+</a>
+
+</h3>
+<p>
+模型中没有数据存储；请注意，此报告仅列出具有非自动存储类和全局数据存储的数据存储
+</p>
+
+<script>function postParentWindowMessage(message) {window.parent.postMessage(message, "*");}</script>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HarnessInformation>
+  <ModelMetadata>
+    <P Name="ModelUUID">efd00dec-3ac9-41ac-8a25-31e63c1aecfc</P>
+    <P Name="OwnerBDName">mut_discrete_time_integrator</P>
+  </ModelMetadata>
+  <Harness>
+    <P Name="Name">th_discrete_time_integrator</P>
+    <P Name="Description"/>
+    <P Name="CreatedBy">CAV2OFO</P>
+    <P Name="CreatedOn">Fri May 20 14:37:14 2022</P>
+    <P Name="ModifiedBy">CAV2OFO</P>
+    <P Name="LastSaved">Fri May 27 10:34:32 2022</P>
+    <P Name="Owner">bd</P>
+    <P Name="OwnerType">BD_HARNESS</P>
+    <P Name="OwnerPath">.</P>
+    <P Name="Directory"/>
+    <P Name="FileName">th_discrete_time_integrator.slx</P>
+    <P Name="SavedVersion">10.2</P>
+    <P Name="HarnessUUID">ab7b192b-7d73-469c-bc21-464183dbf437</P>
+    <P Name="HarnessConnectionsMap">0,1,2,3,4|0|0,0,0,0||</P>
+    <P Name="VerificationMode">0</P>
+    <P Name="HarnessOwnerCheckSum">0,0,0,0</P>
+    <P Name="RebuildOnOpen">false</P>
+    <P Name="RebuildModelData">false</P>
+    <P Name="Graphical">false</P>
+    <P Name="DriveFcnCallWithTS">true</P>
+    <P Name="ScheduleInitTermReset">false</P>
+    <P Name="AutoShapeInputs">false</P>
+    <P Name="SLDVCompatible">no</P>
+    <P Name="SynchronizationMode">1</P>
+    <P Name="IsImported">false</P>
+    <P Name="PostRebuildCB"/>
+    <P Name="IsCodeContext">false</P>
+    <P Name="SchedulerBlock">0</P>
+    <P Name="SourceTypeString">None</P>
+    <P Name="SinkTypeString">None</P>
+    <P Name="CustomSourcePath"/>
+    <P Name="CustomSinkPath"/>
+    <P Name="BlockSIDs">2|19|0|0|0|0|0</P>
+    <P Name="OpenGraphs"/>
+    <P Name="ExistingBuildFolder"/>
+    <P Name="FunctionInterfaceName"/>
+  </Harness>
+</HarnessInformation>

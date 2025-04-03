@@ -1,0 +1,30 @@
+/*
+ * File: ASW_SigIn_types.h
+ *
+ * Code generated for Simulink model 'ASW_SigIn'.
+ *
+ * Model version                  : 6.146
+ * Simulink Coder version         : 9.9 (R2023a) 19-Nov-2022
+ * C/C++ source code generated on : Wed Apr  2 08:54:23 2025
+ *
+ * Target selection: ert.tlc
+ * Embedded hardware selection: ARM Compatible->ARM Cortex-M
+ * Code generation objectives: Unspecified
+ * Validation result: Not run
+ */
+
+#ifndef RTW_HEADER_ASW_SigIn_types_h_
+#define RTW_HEADER_ASW_SigIn_types_h_
+#include "custom_type_definition.h"
+#include "motor_control_interface.h"
+
+/* Forward declaration for rtModel */
+typedef struct tag_RTM_ASW_SigIn RT_MODEL_ASW_SigIn;
+
+#endif                                 /* RTW_HEADER_ASW_SigIn_types_h_ */
+
+/*
+ * File trailer for generated code.
+ *
+ * [EOF]
+ */

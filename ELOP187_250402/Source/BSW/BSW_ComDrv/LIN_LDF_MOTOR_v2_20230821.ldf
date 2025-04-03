@@ -1,0 +1,105 @@
+/*---------GLOBAL DEFINITIONS-----------*/
+LIN_description_file;
+LIN_protocol_version             = "2.1";
+LIN_language_version             = "2.1";
+LIN_speed                        = 19.2 kbps;
+/* ----------NODE DEFINITIONS---------- */
+Nodes {
+   Master:
+      LINMaster,                                             /* Master node name */
+      100 ms,                                                /* Time base */
+      0.1 ms;                                                /* Jitter */
+   Slaves:
+      Motor;
+}
+/* ----------SIGNAL DEFINITIONS---------- */
+Signals {
+   /* Signal_name          : Size,                              Init,            Publisher, Subscriber(s) */
+   ActSpeed                :  16,                               0x00,                Motor, LINMaster;
+   Error                        :  1,                                0x00,                Motor, LINMaster;
+   ActTemp                 :  16,                               0x00,                Motor, LINMaster;
+   SysVoltage              :  16,                               0x00,                Motor, LINMaster;
+   RefSpeed                :  16,                               0x00,                LINMaster, Motor;
+}
+/* ----------DIAGNOSTIC SIGNAL DEFINITIONS---------- */
+Diagnostic_signals {
+   /* MasterReq Reserved Signals */
+   MasterReqB0         :    8,   0;
+   MasterReqB1         :    8,   0;
+   MasterReqB2         :    8,   0;
+   MasterReqB3         :    8,   0;
+   MasterReqB4         :    8,   0;
+   MasterReqB5         :    8,   0;
+   MasterReqB6         :    8,   0;
+   MasterReqB7         :    8,   0;
+   /* SlaveResp Reserved Signals */
+   SlaveRespB0         :    8,   0;
+   SlaveRespB1         :    8,   0;
+   SlaveRespB2         :    8,   0;
+   SlaveRespB3         :    8,   0;
+   SlaveRespB4         :    8,   0;
+   SlaveRespB5         :    8,   0;
+   SlaveRespB6         :    8,   0;
+   SlaveRespB7         :    8,   0;
+}
+/* ----------UNCONDITIONAL FRAME DEFINITIONS---------- */
+Frames {
+   MotorStatus       : 0x12, Motor                 ,    8 {
+      ActSpeed        , 0;
+      Error           , 16;
+      ActTemp         , 24;
+      SysVoltage         , 40;
+   }
+   MotorCtrl          : 0x11, LINMaster            ,    8 {
+      RefSpeed        , 0;
+   }
+}
+/* ----------DIAGNOSTIC FRAME DEFINITIONS---------- */
+Diagnostic_frames {
+   MasterReq           : 0x3C {
+      MasterReqB0         , 0;
+      MasterReqB1         , 8;
+      MasterReqB2         , 16;
+      MasterReqB3         , 24;
+      MasterReqB4         , 32;
+      MasterReqB5         , 40;
+      MasterReqB6         , 48;
+      MasterReqB7         , 56;
+   }
+   SlaveResp           : 0x3D {
+      SlaveRespB0         , 0;
+      SlaveRespB1         , 8;
+      SlaveRespB2         , 16;
+      SlaveRespB3         , 24;
+      SlaveRespB4         , 32;
+      SlaveRespB5         , 40;
+      SlaveRespB6         , 48;
+      SlaveRespB7         , 56;
+   }
+}
+/* ----------NODE ATTRIBUTE DEFINITIONS---------- */
+Node_attributes {
+   Motor {
+      LIN_protocol               = "2.1";                    /* Node protocol version */
+      configured_NAD             = 0x03;                     /* configured NAD of node */
+      initial_NAD                = 0x0C;                     /* initial NAD of node */
+      product_id                 = 0x2E, 0x0B, 0x01;         /* Product id */
+      response_error             = Error;              /* Response error signal */
+      P2_min                     = 50 ms;                    /* P2_min */
+      ST_min                     = 0 ms;                     /* ST_min */
+      N_As_timeout               = 1000 ms;                  /* N_As_timeout */
+      N_Cr_timeout               = 1000 ms;                  /* N_As_timeout */
+      configurable_frames {
+         MotorStatus;
+         MotorCtrl;
+      }
+   }
+}
+/* ----------SCHEDULE TABLE DEFINITIONS---------- */
+Schedule_tables {
+   Run {
+      MotorCtrl                         delay 100.0 ms;
+      MotorStatus                       delay 100.0 ms;
+   }
+}
+

@@ -1,0 +1,282 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Info>
+    <MetadataNode>
+        <path value="ProjectData:type:Info">
+            <node name="Info">
+                <entry value="WF_control_library" key="Name"/>
+            </node>
+        </path>
+        <path value="Root:type:Categories">
+            <path value="FileClassCategory:type:Category">
+                <node name="Info">
+                    <entry value="None" key="DataType"/>
+                    <entry value="Classification" key="Name"/>
+                    <entry value="1" key="ReadOnly"/>
+                    <entry value="1" key="SingleValued"/>
+                </node>
+                <path value="artifact:type:Label">
+                    <node name="Info">
+                        <entry value="Artifact" key="Name"/>
+                        <entry value="READ_ONLY" key="ReadOnly"/>
+                    </node>
+                </path>
+                <path value="convenience:type:Label">
+                    <node name="Info">
+                        <entry value="Convenience" key="Name"/>
+                        <entry value="READ_ONLY" key="ReadOnly"/>
+                    </node>
+                </path>
+                <path value="derived:type:Label">
+                    <node name="Info">
+                        <entry value="Derived" key="Name"/>
+                        <entry value="READ_ONLY" key="ReadOnly"/>
+                    </node>
+                </path>
+                <path value="design:type:Label">
+                    <node name="Info">
+                        <entry value="Design" key="Name"/>
+                        <entry value="READ_ONLY" key="ReadOnly"/>
+                    </node>
+                </path>
+                <path value="none:type:Label">
+                    <node name="Info">
+                        <entry value="None" key="Name"/>
+                        <entry value="READ_ONLY" key="ReadOnly"/>
+                    </node>
+                </path>
+                <path value="other:type:Label">
+                    <node name="Info">
+                        <entry value="Other" key="Name"/>
+                        <entry value="READ_ONLY" key="ReadOnly"/>
+                    </node>
+                </path>
+                <path value="test:type:Label">
+                    <node name="Info">
+                        <entry value="Test" key="Name"/>
+                        <entry value="READ_ONLY" key="ReadOnly"/>
+                    </node>
+                </path>
+            </path>
+        </path>
+        <path value="Root:type:EntryPoints"/>
+        <path value="Root:type:Extensions"/>
+        <path value="Root:type:Files">
+            <path value="icons:type:File">
+                <node name="Info"/>
+                <path value="1:type:DIR_SIGNIFIER">
+                    <node name="Info"/>
+                </path>
+            </path>
+            <path value="library_block:type:File">
+                <node name="Info"/>
+                <path value="1:type:DIR_SIGNIFIER">
+                    <node name="Info"/>
+                </path>
+            </path>
+            <path value="test_harnesses:type:File">
+                <node name="Info"/>
+                <path value="1:type:DIR_SIGNIFIER">
+                    <node name="Info"/>
+                </path>
+            </path>
+            <path value="vhit_control_library.slx:type:File">
+                <node name="Info">
+                    <node name="Category">
+                        <entry value="FileClassCategory" key="UUID"/>
+                        <node name="Label">
+                            <entry value="design" key="UUID"/>
+                        </node>
+                    </node>
+                </node>
+            </path>
+        </path>
+        <path value="Root:type:ProjectData"/>
+        <path value="Root:type:ProjectPath">
+            <path value="126883f3-c88b-4a9e-b197-0f360cead7f3:type:Reference">
+                <node name="Info">
+                    <entry value="test_harnesses/duty_cycle_waveform_generator" key="Ref"/>
+                    <entry value="Relative" key="Type"/>
+                </node>
+            </path>
+            <path value="2bdc52a1-9e98-42cd-91d7-ab3163a94bfc:type:Reference">
+                <node name="Info">
+                    <entry value="" key="Ref"/>
+                    <entry value="Relative" key="Type"/>
+                </node>
+            </path>
+            <path value="a96aabe4-b214-4551-b34f-a9d46bb2f907:type:Reference">
+                <node name="Info">
+                    <entry value="test_harnesses" key="Ref"/>
+                    <entry value="Relative" key="Type"/>
+                </node>
+            </path>
+            <path value="c8b93211-b433-4d52-8be4-61cbca49b1df:type:Reference">
+                <node name="Info">
+                    <entry value="icons" key="Ref"/>
+                    <entry value="Relative" key="Type"/>
+                </node>
+            </path>
+            <path value="d3433403-68ab-423b-a45d-ea0a10619510:type:Reference">
+                <node name="Info">
+                    <entry value="library_block" key="Ref"/>
+                    <entry value="Relative" key="Type"/>
+                </node>
+            </path>
+            <path value="f38bbc26-4666-4e9c-be11-0e4d953ff472:type:Reference">
+                <node name="Info">
+                    <entry value="test_harnesses/discrete_time_integrator" key="Ref"/>
+                    <entry value="Relative" key="Type"/>
+                </node>
+            </path>
+        </path>
+    </MetadataNode>
+    <Files>
+        <File path="icons/Cart2Polar.png" value="3a03de6"/>
+        <File path="icons/ClarkTransf.png" value="91cb899a"/>
+        <File path="icons/CountDownTimer.png" value="972ed365"/>
+        <File path="icons/CountUpTimer.png" value="be05d1e7"/>
+        <File path="icons/FallEdge.png" value="a869b02e"/>
+        <File path="icons/Hyst.png" value="853bbd44"/>
+        <File path="icons/IconBuild.pptx" value="e2fe6028"/>
+        <File path="icons/InvClarkTransf.png" value="91cb899a"/>
+        <File path="icons/InvParkTransf.PNG" value="a7c104b0"/>
+        <File path="icons/LowPassFilterK.png" value="82c5d630"/>
+        <File path="icons/ParkTransf.PNG" value="a7c104b0"/>
+        <File path="icons/PiController.png" value="85fb70e9"/>
+        <File path="icons/RateLimiter.png" value="3ef9c307"/>
+        <File path="icons/RiseEdge.png" value="79a17ea9"/>
+        <File path="icons/RiseFallEdge.png" value="9370fb34"/>
+        <File path="icons/TurnOffDelay.png" value="c0979113"/>
+        <File path="icons/TurnOnDelay.png" value="d5d223e1"/>
+        <File path="icons/foward_euler_integrator.png" value="bbbeefe1"/>
+        <File path="icons/resettable_unit_delay.png" value="8a1d1daa"/>
+        <File path="icons" value="-1"/>
+        <File path="library_block/lib_angle_mapper.slx" value="d0a1006"/>
+        <File path="library_block/lib_cart_to_polar_coor_transformer.slx" value="fce9c5c8"/>
+        <File path="library_block/lib_clarke_transform.slx" value="9aa6c700"/>
+        <File path="library_block/lib_configurable_parameter.slx" value="4b2300b2"/>
+        <File path="library_block/lib_conversion.slx" value="a22216a5"/>
+        <File path="library_block/lib_current_control_decoupling.slx.r2022b" value="98239e98"/>
+        <File path="library_block/lib_current_control_decoupling.slx" value="41208918"/>
+        <File path="library_block/lib_debounce.slx" value="708dacfc"/>
+        <File path="library_block/lib_derating_reference_speed_limiter.slx" value="1c64111d"/>
+        <File path="library_block/lib_discrete_time_PI_controller.slx" value="1295b2e7"/>
+        <File path="library_block/lib_discrete_time_integrator.slx" value="60051238"/>
+        <File path="library_block/lib_duty_cycle_waveform_generator.slx" value="4288c7fa"/>
+        <File path="library_block/lib_dynamic_saturator.slx" value="adda4be4"/>
+        <File path="library_block/lib_fault_definiteness.slx" value="a088592"/>
+        <File path="library_block/lib_feed_foward_current_control.slx" value="c4086a5a"/>
+        <File path="library_block/lib_filtered_derivative.slx" value="51f595a2"/>
+        <File path="library_block/lib_finite_difference_derivative.slx.r2022b" value="e90527e4"/>
+        <File path="library_block/lib_finite_difference_derivative.slx" value="17c45520"/>
+        <File path="library_block/lib_finite_difference_filtered_derivative.slx" value="23c945cb"/>
+        <File path="library_block/lib_first_order_filter.slx" value="a89d265"/>
+        <File path="library_block/lib_flux_observer.slx" value="43f139dc"/>
+        <File path="library_block/lib_hysteresis.slx" value="405f1e24"/>
+        <File path="library_block/lib_hysteresis_debounce.slx" value="fe9ef144"/>
+        <File path="library_block/lib_iir_filter.slx" value="5a3ba5c3"/>
+        <File path="library_block/lib_inverse_clarke_transform.slx" value="60c5840f"/>
+        <File path="library_block/lib_inverse_park_transform.slx" value="9075025d"/>
+        <File path="library_block/lib_magnitude_calculator.slx" value="210a3e01"/>
+        <File path="library_block/lib_mod_operation.slx" value="48e4895b"/>
+        <File path="library_block/lib_moving_average_filter.slx" value="8563a5b3"/>
+        <File path="library_block/lib_mtpa_reference_current_generator.slx" value="b20b125d"/>
+        <File path="library_block/lib_park_transform.slx" value="7717b54f"/>
+        <File path="library_block/lib_polar_to_cart_coor_transformer.slx" value="cc074f47"/>
+        <File path="library_block/lib_rate_limiter.slx" value="17c21747"/>
+        <File path="library_block/lib_rate_limiter_YXQ.slx.r2022b" value="34f04252"/>
+        <File path="library_block/lib_rate_limiter_YXQ.slx" value="786311b8"/>
+        <File path="library_block/lib_resettable_unit_delay.slx" value="d07588a1"/>
+        <File path="library_block/lib_right_angle_side_length_calculator.slx" value="789c910c"/>
+        <File path="library_block/lib_square_root.slx" value="c18d4e99"/>
+        <File path="library_block/lib_startup_procedure.slx" value="2f24cef0"/>
+        <File path="library_block/lib_supply_current_estimator.slx" value="c2a8343d"/>
+        <File path="library_block/lib_temperature_compensator.slx" value="41a29397"/>
+        <File path="library_block/lib_torque_limit_calculator.slx" value="47036e43"/>
+        <File path="library_block/lib_trigonometric_function.slx" value="d40a5b3"/>
+        <File path="library_block/lib_two_state_filtered_derivative.slx" value="26af3157"/>
+        <File path="library_block" value="-1"/>
+        <File path="resources/project/1j39pU_Ph5pwN0qzekbBr7wc8HU/1UJg_YflxlvJ_Eg5JuqxbXhfz4Ad.xml" value="8f31f7d0"/>
+        <File path="resources/project/1j39pU_Ph5pwN0qzekbBr7wc8HU/1UJg_YflxlvJ_Eg5JuqxbXhfz4Ap.xml" value="8d8aed83"/>
+        <File path="resources/project/1j39pU_Ph5pwN0qzekbBr7wc8HU" value="-1"/>
+        <File path="resources/project/C32N97607qDpL-jbTSfmwDz8heY/bMgiA-pl45108jWGOp8-A1pLukgd.xml" value="b62b63f9"/>
+        <File path="resources/project/C32N97607qDpL-jbTSfmwDz8heY/bMgiA-pl45108jWGOp8-A1pLukgp.xml" value="60a23a3a"/>
+        <File path="resources/project/C32N97607qDpL-jbTSfmwDz8heY" value="-1"/>
+        <File path="resources/project/EEtUlUb-dLAdf0KpMVivaUlztwA/2igXiyLLyR9N7Inmk9MY9SEqPDQd.xml" value="4f194033"/>
+        <File path="resources/project/EEtUlUb-dLAdf0KpMVivaUlztwA/2igXiyLLyR9N7Inmk9MY9SEqPDQp.xml" value="699d910d"/>
+        <File path="resources/project/EEtUlUb-dLAdf0KpMVivaUlztwA/46nqxo4hPikDVPMDpzrw4_Oz2Scd.xml" value="c7911e20"/>
+        <File path="resources/project/EEtUlUb-dLAdf0KpMVivaUlztwA/46nqxo4hPikDVPMDpzrw4_Oz2Scp.xml" value="349312bb"/>
+        <File path="resources/project/EEtUlUb-dLAdf0KpMVivaUlztwA/50koYqNpJClhCoi7NVk6S_yLtBYd.xml" value="7c835490"/>
+        <File path="resources/project/EEtUlUb-dLAdf0KpMVivaUlztwA/50koYqNpJClhCoi7NVk6S_yLtBYp.xml" value="4583f94c"/>
+        <File path="resources/project/EEtUlUb-dLAdf0KpMVivaUlztwA/6pjVuPe3N5dyNi4y5eYGOdANL2od.xml" value="783989d2"/>
+        <File path="resources/project/EEtUlUb-dLAdf0KpMVivaUlztwA/6pjVuPe3N5dyNi4y5eYGOdANL2op.xml" value="748b667b"/>
+        <File path="resources/project/EEtUlUb-dLAdf0KpMVivaUlztwA/jwoHDzF5oqCV_tSolJaaAioD5BEd.xml" value="b0e57503"/>
+        <File path="resources/project/EEtUlUb-dLAdf0KpMVivaUlztwA/jwoHDzF5oqCV_tSolJaaAioD5BEp.xml" value="a4389340"/>
+        <File path="resources/project/EEtUlUb-dLAdf0KpMVivaUlztwA/l9zyJX6uO0srJrSB0XLRuORdz_Qd.xml" value="bc4ffc50"/>
+        <File path="resources/project/EEtUlUb-dLAdf0KpMVivaUlztwA/l9zyJX6uO0srJrSB0XLRuORdz_Qp.xml" value="d1bb308e"/>
+        <File path="resources/project/EEtUlUb-dLAdf0KpMVivaUlztwA" value="-1"/>
+        <File path="resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/2kj09UetkV_lru3gvSPXnY6-nM4d.xml" value="148c5ac0"/>
+        <File path="resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/2kj09UetkV_lru3gvSPXnY6-nM4p.xml" value="496841f"/>
+        <File path="resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/KKyDJtbdIBOlaeHmIZd5VX6vqx8d.xml" value="715b2bb2"/>
+        <File path="resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/KKyDJtbdIBOlaeHmIZd5VX6vqx8p.xml" value="10027d11"/>
+        <File path="resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/QWNDYJD5mGW1bWYvPx9DtKnxzw4d.xml" value="7ab9fc4a"/>
+        <File path="resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/QWNDYJD5mGW1bWYvPx9DtKnxzw4p.xml" value="18d23c93"/>
+        <File path="resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/R1RggVhA72agIvELiuhWPRS8F0Id.xml" value="bf4f871a"/>
+        <File path="resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/R1RggVhA72agIvELiuhWPRS8F0Ip.xml" value="3cc97f0a"/>
+        <File path="resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/aEHSZBIY-yve10yGis12Zr5DLZod.xml" value="c25475c3"/>
+        <File path="resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/aEHSZBIY-yve10yGis12Zr5DLZop.xml" value="31415d7a"/>
+        <File path="resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/j4xwF_j8iFTVayUMfxLgMnTbencd.xml" value="afc31ba7"/>
+        <File path="resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/j4xwF_j8iFTVayUMfxLgMnTbencp.xml" value="d677c39"/>
+        <File path="resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/r8LR4nLmg9ai3oHrW1r_-KocQzkd.xml" value="d392500b"/>
+        <File path="resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/r8LR4nLmg9ai3oHrW1r_-KocQzkp.xml" value="7acdcadd"/>
+        <File path="resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs" value="-1"/>
+        <File path="resources/project/Project.xml" value="b24d0f63"/>
+        <File path="resources/project/WNlhrshMXyFudHBdT_vkfa9b6RA/uQKsi6mE3M_uXgt0FDVifmrqd4sd.xml" value="8f31f7d0"/>
+        <File path="resources/project/WNlhrshMXyFudHBdT_vkfa9b6RA/uQKsi6mE3M_uXgt0FDVifmrqd4sp.xml" value="8d8aed83"/>
+        <File path="resources/project/WNlhrshMXyFudHBdT_vkfa9b6RA" value="-1"/>
+        <File path="resources/project/fjRQtWiSIy7hIlj-Kmk87M7s21k/NjSPEMsIuLUyIpr2u1Js5bVPsOsd.xml" value="bb05bc8d"/>
+        <File path="resources/project/fjRQtWiSIy7hIlj-Kmk87M7s21k/NjSPEMsIuLUyIpr2u1Js5bVPsOsp.xml" value="e31a537e"/>
+        <File path="resources/project/fjRQtWiSIy7hIlj-Kmk87M7s21k" value="-1"/>
+        <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/1j39pU_Ph5pwN0qzekbBr7wc8HUd.xml" value="8f31f7d0"/>
+        <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/1j39pU_Ph5pwN0qzekbBr7wc8HUp.xml" value="e6b7358a"/>
+        <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/C32N97607qDpL-jbTSfmwDz8heYd.xml" value="b62b63f9"/>
+        <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/C32N97607qDpL-jbTSfmwDz8heYp.xml" value="5daae4b5"/>
+        <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/WNlhrshMXyFudHBdT_vkfa9b6RAd.xml" value="8f31f7d0"/>
+        <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/WNlhrshMXyFudHBdT_vkfa9b6RAp.xml" value="1ddff416"/>
+        <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/j_7B8z3jEgO48SsHElXlAmup0Hkd.xml" value="6827d0ff"/>
+        <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/j_7B8z3jEgO48SsHElXlAmup0Hkp.xml" value="307f294f"/>
+        <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ" value="-1"/>
+        <File path="resources/project/root/6x1BhZX_fLnKpcwqra0qFwv1jIgp.xml" value="2d4e76f0"/>
+        <File path="resources/project/root/EEtUlUb-dLAdf0KpMVivaUlztwAp.xml" value="24147d5f"/>
+        <File path="resources/project/root/GiiBklLgTxteCEmomM8RCvWT0nQd.xml" value="d96a1a37"/>
+        <File path="resources/project/root/GiiBklLgTxteCEmomM8RCvWT0nQp.xml" value="3916d84"/>
+        <File path="resources/project/root/KAXfQgCar2Yb8zOxgvf9hdmLP1Ep.xml" value="342b5e16"/>
+        <File path="resources/project/root/NmGqIpAwUJcXFyLjFAGnU9uyN5Yp.xml" value="d1f520ff"/>
+        <File path="resources/project/root/fjRQtWiSIy7hIlj-Kmk87M7s21kp.xml" value="7839e35f"/>
+        <File path="resources/project/root/qaw0eS1zuuY1ar9TdPn1GMfrjbQp.xml" value="35b9c577"/>
+        <File path="resources/project/rootp.xml" value="8f31f7d0"/>
+        <File path="resources/project/root" value="-1"/>
+        <File path="resources/project/uuid-ff961938-96bd-4c3e-a49e-5aa12fe854d8.xml" value="8f31f7d0"/>
+        <File path="resources/project" value="-1"/>
+        <File path="resources" value="-1"/>
+        <File path="test_harnesses/discrete_time_integrator/dd_discrete_time_integrator.sldd" value="71c8c3f6"/>
+        <File path="test_harnesses/discrete_time_integrator/mut_discrete_time_integrator.slx" value="5792dbc1"/>
+        <File path="test_harnesses/discrete_time_integrator/mut_discrete_time_integrator_harnessInfo.xml" value="cd869c2"/>
+        <File path="test_harnesses/discrete_time_integrator/tf_discrete_time_integrator.mldatx" value="e0707bf1"/>
+        <File path="test_harnesses/discrete_time_integrator/tf_discrete_time_integrator.slmx" value="fccdf751"/>
+        <File path="test_harnesses/discrete_time_integrator/th_discrete_time_integrator.slx" value="2006a2e9"/>
+        <File path="test_harnesses/discrete_time_integrator" value="-1"/>
+        <File path="test_harnesses/duty_cycle_waveform_generator/dd_model_under_test_data.sldd" value="dd27c403"/>
+        <File path="test_harnesses/duty_cycle_waveform_generator/dd_test_harness_data.sldd" value="89db292f"/>
+        <File path="test_harnesses/duty_cycle_waveform_generator/mut_duty_cycle_waveform_generator.slx" value="253d951"/>
+        <File path="test_harnesses/duty_cycle_waveform_generator/mut_duty_cycle_waveform_generator_harnessInfo.xml" value="3f2b23e5"/>
+        <File path="test_harnesses/duty_cycle_waveform_generator/tf_duty_cycle_waveform_generator.mldatx" value="47760c0e"/>
+        <File path="test_harnesses/duty_cycle_waveform_generator/th_duty_cycle_waveform_generator.slx" value="e93cf763"/>
+        <File path="test_harnesses/duty_cycle_waveform_generator" value="-1"/>
+        <File path="test_harnesses" value="-1"/>
+        <File path="vhit_control_libproj.prj" value="fe84b66d"/>
+        <File path="vhit_control_library.slx.r2022b" value="84cb584c"/>
+        <File path="vhit_control_library.slx" value="fc094d41"/>
+    </Files>
+    <Date value="2024年7月19日 18:33:22"/>
+</Info>
