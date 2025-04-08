@@ -23,7 +23,14 @@ void ComIf_1msTask(void)
 	
 }
 
+void ComIf_500usTask(void)
+{
 
+  
+   ComDrv_500usTask();
+
+
+}
 
 
 

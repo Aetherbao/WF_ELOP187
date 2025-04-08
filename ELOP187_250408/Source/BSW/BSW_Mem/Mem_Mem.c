@@ -44,19 +44,19 @@ void Mem_RAMInit(void)
 
 }
 
-void Mem_EreaseEeprom(void)//erase product and eeprom
-{
-	uint8  u8_Index;
-	uint32 u32_Addr_Tmp;
-	u8_Index = 0u;
+// void Mem_EreaseEeprom(void)//erase product and eeprom
+// {
+// 	uint8  u8_Index;
+// 	uint32 u32_Addr_Tmp;
+// 	u8_Index = 0u;
   
- /* Erase EEPROM */
-	// for(u8_Index=0;u8_Index<(EEPROM_SIZE/0x80);u8_Index++)
-	// {
-    u32_Addr_Tmp=MEM_CHARACT_NVM_START+(u8_Index*0x80);
-   (void)USER_ERASEPG((uint32*)u32_Addr_Tmp,0);
-	// }
-}
+//  /* Erase EEPROM */
+// 	// for(u8_Index=0;u8_Index<(EEPROM_SIZE/0x80);u8_Index++)
+// 	// {
+//     u32_Addr_Tmp=MEM_CHARACT_NVM_START+(u8_Index*0x80);
+//    (void)USER_ERASEPG((uint32*)u32_Addr_Tmp,0);
+// 	// }
+// }
 
 void Mem_DataRAM2NVM(ENM_MEM_SECTOR enmMem_Sector)
 {

@@ -149,7 +149,8 @@ void Task_500usTask_ISR(void)
   DIAG_PosSCD_Com();
   DIAG_VSDFault_Handle();
   
-   l_cyclic_com_task();
+	ComIf_500usTask();
+   //l_cyclic_com_task();
 	BDRV_StateSwitch();
 }
 

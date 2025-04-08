@@ -16,6 +16,8 @@ extern uint8 Flag_Count_LinSleep;
 
 extern void ProtStk_UDS_1msTask(void);
 extern void ComDrv_1msTask(void);
+extern void ComDrv_500usTask(void);
+
 void LinAppl_Run(void);
 
 
