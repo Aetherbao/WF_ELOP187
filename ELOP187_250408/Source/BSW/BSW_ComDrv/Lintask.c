@@ -139,6 +139,11 @@ void ComDrv_1msTask(void)
 		LIN_LLD_Service();
 }
 
+void ComDrv_500usTask(void)
+{
+		l_cyclic_com_task();
+}
+
 void LinAppl_Run(void)
 {
 

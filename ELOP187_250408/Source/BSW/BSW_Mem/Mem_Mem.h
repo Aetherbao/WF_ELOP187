@@ -130,5 +130,5 @@ RAM AREA
 // uint8 Mem_EreaeNVM(uint32 u32_TargetAddress,uint32 u32_Length);
 void Mem_RAMInit(void);
 void Mem_DataRAM2NVM(ENM_MEM_SECTOR enmMem_Sector);
- void Mem_EreaseEeprom(void);
+//  void Mem_EreaseEeprom(void);
 #endif

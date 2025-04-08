@@ -80,7 +80,7 @@ static sint16 s16_MID_Interface_ActSpd_CAN = 0;
 SRAM_CHARACT_UINT16 offset_buff[2] = {0u};
 SRAM_PRODUCTINFO_UINT8 u8_Interface_HWVersion[10] = {'Y','2','E','O','P','H','H','W','1','0'};
 static uint8 u8_Interface_SysName[7] = {'E','L','O','P','1','8','7'};
-static uint8 u8_Interface_SWVersion[10] = {'Y','2','P','S','0','0','3','.','0','7'};
+static uint8 u8_Interface_SWVersion[10] = {'Y','2','P','S','0','0','3','.','0','9'};
 static uint8 u8_Interface_DataVersion[25] = {'X','X','X','X','X','X','X','X','X','X','X','X','X','X','X','X','X','X','X','X','X','X','X','X','X'};	
 uint8 Temp_OperationModel = 0;
 sint16 s16_Temp_nComRefMechSpd = 0;
@@ -362,7 +362,7 @@ void Interface_AST_SlwTask_Trans(void)
 void Interface_OBD_SlwTask_Trans(void)
 {
 busOBD_SlwTaskIn.s16_nRmpRefElecSpd = busAST_SlwTaskOut.s16_nRmpRefElecSpd;
-busOBD_SlwTaskIn.s16_nActElecSpd = busPhVltgGen_MedTaskOut.s16_nActElecSpd;
+busOBD_SlwTaskIn.s16_nActElecSpd = busAST_SlwTaskOut.s16_nActElecSpdComFlt;//busPhVltgGen_MedTaskOut.s16_nActElecSpd;
 busOBD_SlwTaskIn.enm_stMotoSt = busPhCurrGen_SlwTaskOut.enm_stMotoSt;
 busOBD_SlwTaskIn.s16_ampActPhCurrAmp = busAST_SlwTaskOut.s16_ampActPhCurrAmp;
 busOBD_SlwTaskIn.u16_uSplyVltg = busSigIn_MedTaskOut.u16_uSplyVltg;
@@ -518,6 +518,7 @@ if(Gu8_ComIf_APPTxMesFlagSecond == true)
 	                            ((busOBD_SlwTaskOut.busOBD_FaltSt.bol_flgSplyVltgLoLvl2Flg<<5) & 0x20) |
 	                            ((busOBD_SlwTaskOut.busOBD_FaltSt.bol_flgMotoSpdLoLvl1Flg<<7) & 0x80);
 	ComIf_BusCurrent = (sint16)((sint32)((sint32)(busAST_SlwTaskOut.s16_iEstSplyCurr)*Cdbl_iSplyCurrPeakVal*10)>>15);
+	static uint8 ComIf_RunningStatusOld;
 	if(busAST_SlwTaskOut.enm_stSysSt == SYSINIT)
 	{
 	ComIf_RunningStatus = 0;
@@ -526,10 +527,14 @@ if(Gu8_ComIf_APPTxMesFlagSecond == true)
 	{
 	ComIf_RunningStatus = 3;
 	}
-	else if(busAST_SlwTaskOut.enm_stSysSt == SYSFAIL)
+	else if(busAST_SlwTaskOut.enm_stSysSt == SYSFAIL) 
 	{
 	ComIf_RunningStatus = 7;
 	}
+//	else if((busAST_SlwTaskOut.enm_stSysSt == SYSFAIL) && (((busOBD_SlwTaskOut.busOBD_FaltSt.bol_flgMotoStallPermFlg == 0) &&(busOBD_SlwTaskOut.busOBD_FaltStTmp.bol_flgMotoStallPermTmp == 0))||(busOBD_SlwTaskOut.busOBD_FaltSt.bol_flgPhCurrHiLvl1Flg == 0)))
+//	{
+//	ComIf_RunningStatus = 7;
+//	}
 	else if((busAST_SlwTaskOut.enm_stSysSt == RUN) && (busOBD_SlwTaskOut.busOBD_FaltSt.bol_flgNoLdFlg) )
 	{
 	ComIf_RunningStatus = 6;
@@ -538,6 +543,16 @@ if(Gu8_ComIf_APPTxMesFlagSecond == true)
 	{
 	ComIf_RunningStatus = 5;
 	}
+	
+	if(ComIf_RunningStatus == 7) 
+	{
+	if ((busOBD_SlwTaskOut.busOBD_FaltStTmp.bol_flgMotoStallPermTmp == 1) ||(busOBD_SlwTaskOut.busOBD_FaltStTmp.bol_flgPhCurrHiLvl1Tmp == 1))
+	{
+	ComIf_RunningStatus = ComIf_RunningStatusOld;
+	}
+	}
+	ComIf_RunningStatusOld = ComIf_RunningStatus;
+	
 	u8_ComIf_APPTxMsgData1[2] = ComIf_BusCurrent & 0xFF;
   u8_ComIf_APPTxMsgData1[3] = ((ComIf_BusCurrent >>8) & 0x03) | 
 	                            (((busOBD_SlwTaskOut.busOBD_FaltSt.bol_flgComFaltFlg & busOBD_SlwTaskOut.bol_flgComRolCntFaltDeb)<<2) & 0x04) |
@@ -605,7 +620,7 @@ if(Gu8_ComIf_APPTxMesFlagFirst == true)
 	                            ((busOBD_SlwTaskOut.busOBD_FaltSt.bol_flgPwrTubPCBTempSensFaltFlg<<5) & 0x20)|
 	                            (((busOBD_SlwTaskOut.busOBD_FaltSt.bol_flgChipFaltFlg | busOBD_SlwTaskOut.busOBD_FaltSt.bol_flgMosOpnCirFaltFlg)<<7) & 0x80);
 	u8_ComIf_APPTxMsgData2[5] = ((u16_Interface_AplSWVer<<2) & 0xFC) | (u8_Interface_SplyID & 0x03);
-	ComIf_Set_APPTxMsgData(u8_ComIf_APPTxMsgData2,0x20);
+	//ComIf_Set_APPTxMsgData(u8_ComIf_APPTxMsgData2,0x20);
 	if(ComIf_AlvCnt2 < 15)
 	{
 	ComIf_AlvCnt2 ++;
