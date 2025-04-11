@@ -10,7 +10,7 @@
 
 BUS_COMIF_UDSREAD_IN busComIf_UDSRead_In;
 
-SRAM_PRODUCTINFO_UINT8 Gu8_ComIf_uBootSofwareVersion[10] = {'Y', '2', 'E', 'O', 'P', 'B','1', '0', '4', 'B'};
+SRAM_PRODUCTINFO_UINT8 Gu8_ComIf_uBootSofwareVersion[10] = {'Y', '2', 'E', 'O', 'P', 'B','1', '0', '5', 'B'};
 //SRAM_ProductInfo_UINT8 Gu8_ComIf_uSofwareVersion[10] = {'Y', '2', 'P', 'S', '0', '0','3', '.', '0', '1'};
 SRAM_PRODUCTINFO_UINT8 Gu8_ComIf_uOrdernumber[15] = {'X', 'X', 'X', 'X', 'X', 'X','X', 'X', 'X', 'X', 'X','X','X', 'X', 'X'};
 //SRAM_ProductInfo_UINT8 Gu8_ComIf_uDataVersion[25] = {'X', 'X', 'X', 'X', 'X', 'X','X', 'X', 'X', 'X', 'X','X','X', 'X', 'X', 'X','X', 'X', 'X', 'X', 'X','X','X', 'X', 'X'};

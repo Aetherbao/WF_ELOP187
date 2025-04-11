@@ -49,7 +49,7 @@ void Mem_RAMInit(void)
 // 	uint8  u8_Index;
 // 	uint32 u32_Addr_Tmp;
 // 	u8_Index = 0u;
-  
+//  
 //  /* Erase EEPROM */
 // 	// for(u8_Index=0;u8_Index<(EEPROM_SIZE/0x80);u8_Index++)
 // 	// {

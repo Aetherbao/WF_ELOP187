@@ -254,7 +254,7 @@ const dt_Standardize_s16p15b0 Gs16_nMinRefMechSpd_C = 267; //OK
 
 
 const dt_Standardize_s16p15b0 Gs16_nUDS2FRefMechSpd_C = 2500;
-const dt_Standardize_s16p15b0 Gs16_trqRefTqAlgnVal_C = 2000;  //OK
+const dt_Standardize_s16p15b0 Gs16_trqRefTqAlgnVal_C = 10000;//2000;  //OK
 const dt_Standardize_s16p15b0 Gs16_trqTqUpLim_C = 22118;//16384;   //OK
 const dt_Standardize_s16p15b0 Gs16_trqTmpStallTqUpLim_C = 8847;//16384;   //OK
 const uint16 Gu16_ctAlgnAlPhStCnt_C = 200U; //OK

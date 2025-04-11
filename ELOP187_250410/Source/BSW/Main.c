@@ -18,11 +18,11 @@ int main(void)
 	
 	Task_TaskRun();      /*task scheduler*/
 
-	//   	if(Memory_stEreaseCalibrationROM_mp!=Memory_stEreaseCalibrationROMPre_mp)
-	//   	{
-    //    Memory_stEreaseCalibrationROMPre_mp=Memory_stEreaseCalibrationROM_mp;
-    //    Mem_EreaseEeprom();
-	//   	}
+//	   	if(Memory_stEreaseCalibrationROM_mp!=Memory_stEreaseCalibrationROMPre_mp)
+//	   	{
+//        Memory_stEreaseCalibrationROMPre_mp=Memory_stEreaseCalibrationROM_mp;
+//        Mem_EreaseEeprom();
+//	   	}
 	}
 }
 
